@@ -1,0 +1,1626 @@
+.lpt__entryheader{
+    .lpt_entryheader__content{
+        width: 75%;
+    }
+    #sd_outer_with_image{
+
+    }
+    #page_header_image {
+        align-items: normal;
+        height: 465px;
+        @include tranny;
+    }
+
+    #page_header_image .entry-content {
+        width: 84%;
+        padding-top: 4.5rem;
+        h1{
+            padding: 0 0 2rem;
+            line-height: 110%;
+        }
+    }
+    #page_header_image .banner_image_right {
+        width: 39%;
+        position: relative;
+
+        img{
+            position: absolute;
+            width: 800px;
+            max-width: unset;
+            right: -329px;
+            top: -1rem;   
+            @include tranny;         
+        }
+    }
+}
+
+.resp_spacer_bottom__2rem {
+    padding: 0 0 2.375em;
+}
+.resp_spacer_topbottom__3rem{
+    padding: 3.375em 0 2.375em;
+}
+
+#content .nlp__block2{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    align-items: flex-start;
+
+    > .wp-block-column{
+        flex-basis: unset;
+        flex-grow: unset;
+        margin: 0;
+    }
+
+    > .wp-block-column:nth-child(1){
+        width: 27%;
+        margin: 0 8% 0 0;
+        > h2{
+            line-height: 100%;
+        }
+    }
+    > .wp-block-column:nth-child(2){
+        width: 65%
+    }
+}
+
+
+#content .the_icon__box{
+    padding: 0;
+
+    .theiconbox__wrapper{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-justify-content: space-between;
+        justify-content: start;
+        align-items: flex-start;        
+    }
+    .theiconbox__item{
+        width: 50%;
+        background: #4db549;
+        align-self: stretch;
+    }
+
+    .theiconbox__item:nth-child(1){
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+    .theiconbox__item:nth-child(2){
+        border-bottom: 1px solid #fff;
+    }
+    .theiconbox__item:nth-child(3){
+        border-right: 1px solid #fff;
+    }
+    .theiconbox__item:nth-child(4){}
+
+    .theiconbox__content{
+        padding: 0;
+        padding: 3rem 3.5rem 3rem 3.5rem;
+
+        h3{
+            padding: 0 0 1rem;
+            font-size: 1.125rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        p{
+            color:#fff;
+            padding: 0;
+        }
+        img{
+            display: block;
+            margin: 0 0 1.5rem 0;
+        }
+    }
+}
+
+#content .partners__logo{
+    padding: 0 0 6rem;
+    .partnerslogo__title{
+        padding: 0;
+        h2{
+            padding: 0 0 2rem;
+            text-align: center;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #dbdbdb;
+            font-size: 1.5rem;
+            letter-spacing: 5px;
+        }
+    }
+
+    .partnerslogo__wrapper{
+        padding: 0;
+    }
+    .partnerslogo__table{
+        display: table;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .partnerslogo__cell{
+        display: table-cell;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: middle;
+
+        img{
+            display: inline-block;
+            margin: 0 1.5rem;
+            vertical-align: middle;
+        }
+    }
+}
+
+.page-template-temp-landingpage #sec-content.def_temp{
+    padding: 6rem 0;
+}
+
+#content .nlp__group_block4{
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding: 0rem;
+    background-image: url(images/nlp4-bg.png);
+    background-color: unset !important;
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 0;
+    margin-bottom: 4rem;
+
+    > .wp-block-group__inner-container{
+        padding: 0;
+        max-width: 1148px;
+        margin: 0 auto 0;
+        width: 100%;
+
+        p{
+            font-size: 0.750rem;
+        }
+    }
+
+}
+
+#content .nlp__group_block4__cols {
+    padding: 1rem 0 0 0;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0 auto;
+
+    > .wp-block-column{
+        width: 30%;
+        flex-basis: unset;
+        flex-grow: unset;
+        margin: 3rem 5% 0 0;
+
+        a:link, a:visited, a:active{
+            color: #4db549;
+            opacity: 1;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover{
+            opacity: 0.8;
+        }
+    }
+
+    > .wp-block-column:nth-child(3n-6){
+        margin-right: 0;
+    }
+    > .wp-block-column:nth-child(1), > .wp-block-column:nth-child(2), > .wp-block-column:nth-child(3){
+        margin-top: 0;
+    }
+}
+#content .nlp__group_block6{
+    margin-left:calc(50% - 50vw);
+    margin-right:calc(50% - 50vw);
+    margin-bottom: 5rem;
+
+    > .wp-block-group__inner-container{
+        padding: 3rem 0;
+        max-width: 1148px;
+        margin: 0 auto 0;
+        width: 100%;
+    }
+}
+#content .nlp__block6{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0 auto;
+
+    .wp-block-column{
+        width: 16%;
+        flex-basis: unset;
+        flex-grow: unset;
+        margin: 0 5% 0 0;
+
+        h2{
+            padding: 0;
+            font-size: 4.3rem;
+            sub{
+                padding: 0;
+                font-size: 2rem;
+                bottom: 0;
+            }
+        }
+        p{
+            padding: 0;
+            font-size: 1.250rem;
+            line-height: 120%;
+        }
+    }
+
+    .wp-block-column:nth-child(5){
+        margin-right: 0;
+    }
+}
+
+.page-template-temp-landingpage  #content #latest__post{
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding: 5rem 0;
+
+    > .wp-block-group__inner-container{
+        padding: 0;
+    }
+}
+
+#content .nlp__group_block7{
+    background-image: url(images/newsletter_bg.png);
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 0;
+
+
+    .wp-block-group__inner-container{
+        max-width: 1148px;
+        margin: 0 auto 0;
+        width: 100%;        
+    }
+}
+
+.page-template-temp-landingpage #hpcontact__form.hp__newsletterform{
+    padding: 1rem 0 0 0;
+
+    .hpcontact__field{
+        float: left;
+        width: 73%;
+    }
+    .hpcontact__btn{
+        float: left;
+        padding: 0 0 0 3% !important;
+        width: 27%;
+        position: relative;
+    }
+    .hpcontact__response{
+        clear: both;
+    }
+}
+
+
+.page-template-temp-landingpage #content #hpcontact__form .hpcontact__field > span > input[type="email"]{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    height: 45px
+}
+.page-template-temp-landingpage #content #hpcontact__form .hpcontact__btn input[type="submit"]{
+    border-radius: 0;
+    height: 45px;
+    width: 100%;
+}
+
+form.wpcf7-form #hpcontact__form .hpcontact__btn .ajax-loader{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    margin-left: 11% !important;
+}
+form.wpcf7-form.submitting #hpcontact__form .hpcontact__btn .ajax-loader{
+    display: block;
+
+}
+.page-template-temp-landingpage #content .featured_platform__wrapper, #content .featured_platform__wrapper{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 2rem;
+
+    .fp__featured{
+        position: absolute;
+        color: #fff;
+        top: 2.1rem;
+        left: -4.9rem;
+        z-index: 1;
+        padding: 0.2rem 5rem;
+        background: #4db549;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        transform: rotate(312deg);
+        -webkit-transform: rotate(312deg);
+        -moz-transform: rotate(312deg);
+        -ms-transform: rotate(312deg);
+        -o-transform: rotate(312deg);
+    }
+}
+
+
+.page-template-temp-landingpage #software__info .software__info__logo{
+    float: left;
+    margin: 0 3% 0 0;
+    img{
+        float: none;
+        display: block;
+    }
+}
+
+.page-template-temp-landingpage #software__info .software__info__urls{
+    float: left;
+    position: relative;
+    top: 26px;
+
+    .software__info__name{
+        padding: 0;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .software__info__linker{
+        padding: 0;
+        font-size: 1rem;
+        line-height: 1;
+        font-weight: 500;
+        a:link, a:visited, a:active{
+            text-decoration: underline;
+            color: #4db549;
+            text-decoration-color: #3e723c;
+            text-decoration-thickness: 2px;
+        }
+        a:hover{
+        }
+    }
+}
+
+#software__info{
+    margin: 0 0 2.375rem 0;
+}
+
+#featured__platform_box #fpc__block .featured_platform_content__info{
+    padding: 0;
+    float: left;
+    width: 45.5%;
+
+    .fptitle__h4{
+        float: left;
+        font-size: 1.1rem;
+        position: relative;
+        top: 5px;
+        width: 35%;
+    }
+    .fpright{
+        float: left;
+        width: 65%;
+    }
+}
+
+#featured__platform_box #fpc__block .fpl__wrapper{
+    padding: 0;
+    float: left;
+    width: 16%;
+    margin: 0 2% 0 4.5%;
+    position: relative;
+    top: -4rem;
+
+    .fpl__img:nth-child(1){
+        padding: 0;
+    }
+    .fpl__img{
+        padding: 1rem 0 0 0;
+
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+#featured__platform_box #fpc__block .fp_licenses_btns{
+    padding: 0;
+    float: right;
+    width: 23%;
+
+    .get__started{
+        text-decoration: none;
+        margin: 0 auto 1rem;
+        width: 100%;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 0;
+        border: 2px solid #4db549;
+        background: #4db549;
+    }
+    .get__started:hover{
+        background: transparent;
+        color: #4db549;
+    }
+
+    .read__review{
+        text-decoration: none;
+        padding: 0.5rem;
+        text-align: center;
+        width: 100%;
+        border-radius: 0;
+        border: 2px solid #fff;
+        background: transparent;
+    }
+    .read__review:hover{
+        border: 2px solid #4db549;
+        color: #4db549;
+        background: transparent;
+    }
+
+}
+#content .featured_platform__wrapper #featured__platform_box {
+    padding-bottom: 1rem;
+    border-radius: 0;
+}
+
+.img_overlay {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    mix-blend-mode: lighten;
+    object-fit: contain;
+    object-position: bottom;
+    display: block;
+}
+#featured__platform_logourl {
+    position: sticky;
+}
+.page-template-temp-landingpage #content #hpcontact__form .hpcontact__response > .wpcf7-response-output{}
+.page-template-temp-landingpage #content #hpcontact__form .hpcontact__response > .wpcf7-response-output {
+    color: #fff;
+}
+.page-template-temp-landingpage .nlp__group_block7__margin {
+    margin: 0 auto 3rem
+}
+
+.page-template-temp-landingpage #content .otp__item {
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+
+    .otp__btns .get__started:link, .otp__btns .get__started:visited, .otp__btns .get__started:active{
+        padding: 0.5rem;
+        border-radius: 0;
+    }
+}
+#the_popup_form{
+    padding: 1rem 0 0 0;
+}
+
+#the_popup_form #hpcontact__form.tp__form {
+    width: 100%;
+    margin: 0 auto;
+
+    div[data-class="wpcf7cf_group"] {
+        .hpcontact__field{
+          padding: 0.5rem 0 0 0;
+        }
+      }    
+
+   .hpcontact__field:first-child{
+     padding: 0;
+   }
+   .hpcontact__field{
+     padding: 0.5rem 0 0 0;
+
+     .text-322 {
+       padding: 0.5rem 0 0 0;
+     }
+     .wpcf7-form-control-wrap.raeson{
+       position: relative;
+     }
+     > span{
+       display: block;
+ 
+       > input[type="text"], > input[type="email"], > input[type="tel"]{
+         width: 100%;
+         display: block;
+         border-radius: 0;
+         border: 2px solid rgba(0,0,0,0.34);
+         font-size: 1rem;
+         font-weight: 500;
+         padding: 0.7rem 1rem;
+         color:#000;
+         line-height: 1;
+         height: 45px;
+       }
+
+       span.wpcf7-acceptance{
+        padding: 0;
+        display: block;
+
+        > span.wpcf7-list-item{
+          padding: 0;
+          margin: 0;
+          display: block;
+    
+          label{
+            padding: 0;
+            position: relative;
+            font-size: 0.9rem;
+            display: block;
+            width: 100%;
+    
+            input[type="checkbox"]{
+                width: 23px;
+                height: 19px;
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            input[type="checkbox"] + span::before{
+              content: " ";
+              height: 19px;
+              width: 23px;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(images/checkbox-bgs.png);
+              background-position: -21px 0px;
+            }
+            input[type="checkbox"] + span{
+              padding: 0.1rem 0 0 2rem;
+              position: relative;
+              left: unset;
+              display: block;
+    
+              a:link, a:visited, a:active{
+                color:#4db549;
+                text-decoration: underline;
+              }
+              a:hover{}
+            }
+            input[type="checkbox"]:checked + span::before{
+              background-position: -21px 19px;
+            }
+            input[type="checkbox"]:checked + span{}
+          }
+          
+        }
+    
+      }       
+       > select::-ms-expand{
+           display: none;
+       }
+       > select{
+           width: 100%;
+           display: block;
+           border-radius: 0;
+           border: 2px solid rgba(0,0,0,0.34);
+           font-size: 1rem;
+           font-weight: 500;
+           padding: 0.7rem 2rem 0.7rem 0.7rem;
+           color:#00000075;
+           line-height: 1;
+           -webkit-appearance: none;
+           -moz-appearance: none;
+           appearance: none;
+           background: url("images/arrow_down.png") no-repeat scroll 101% center;
+           height: 45px;
+       } 
+
+       > textarea{
+         width: 100%;
+         display: block;
+         border-radius: 0;
+         border: 2px solid rgba(0,0,0,0.34);
+         font-size: 1rem;
+         font-weight: 500;
+         padding: 0.7rem 1rem;
+         color:#000;
+         line-height: 120%;
+         height: 9em;
+         resize: none;
+       }
+ 
+       > span.wpcf7-not-valid-tip{
+         position: absolute;
+         top: 0;
+         right: 0;
+         font-size: 0.5rem;
+         line-height: 120%;
+         font-weight: 800;
+         background: #f00;
+         color: #fff;
+         
+         padding: 0.2rem;
+       }
+ 
+     }
+   }
+ 
+   .hpcontact__btn{
+     padding: 3rem 0 0 0;
+ 
+     input[type="submit"]{
+       line-height: 1;
+       background: #4db549;
+       color: #fff;
+       font-size: 1.125rem;
+       font-weight: 700;
+       border-radius: 0;
+       border: 2px solid #4db549;
+       padding: 0.7rem 3rem;
+     }
+     input[type="submit"]:hover{
+       color: #4db549;
+       background: transparent;
+     }
+   }
+ 
+   .hpcontact__response{
+     padding: 0;
+     > .wpcf7-response-output{
+       padding: 1.5rem 0 0 0;
+       border: 0;
+       font-size: 0.8rem;
+       margin: 0;
+     }
+     > .wpcf7-validation-errors{
+       color: #f00;
+     }
+     > .wpcf7-mail-sent-ok{
+       color: #4db549;
+     }
+   }
+}
+
+
+.mfp-content #target-form{
+    padding: 3rem 0 3rem 3rem;
+    background: #fff;
+
+    button.mfp-close{
+        color: #4db549;
+        left: unset;
+        right: 2rem;
+        background: transparent;
+        font-size: 4.5rem;
+        font-weight: 400;
+        font-family: "Montserrat",sans-serif;
+        width: unset;
+        height: unset;
+        line-height: 100%;
+        top: 0;
+    }
+    button.mfp-close:hover{
+        color: #4db549
+    }
+    #popupform{
+        overflow: hidden;
+        > h2{
+            color: #191919;
+            padding: 0 0 1rem;
+        }
+    }
+
+    .popupform__wrapper{
+
+        .popupform__txt{
+            p{
+                color: #333;
+                font-size: 1rem;
+                padding: 0 0 1rem;
+                line-height: 120%;
+                margin: 0;
+            }
+        }
+
+        .popupform__left{
+            float: left;
+            width: 50%;
+        }
+        .popupform__right{
+            float: right;
+            width: 40%;
+            position: relative;
+
+            .popup__img{
+                position: absolute;
+                max-width: unset;
+                right: -258px;
+                top: 10px;
+            }
+        }
+
+    }
+}
+
+.grecaptcha-badge{
+    z-index: 2;
+    bottom: 95px !important;
+    display: none !important;
+}
+.intercom-lightweight-app-launcher, .intercom-namespace .intercom-launcher-frame{
+    right: 10px !important;
+}
+
+/** BY KENNETH START **/
+#content #hpcontact__form.tp__form {
+     width: 90%;
+
+    .hpcontact__field:first-child{
+      padding: 0;
+    }
+    .hpcontact__field{
+      padding: 0.5rem 0 0 0;
+
+      .text-322 {
+        padding: 0.5rem 0 0 0;
+      }
+      .wpcf7-form-control-wrap.raeson{
+        position: relative;
+
+        //  &::after{
+        //     content: '';
+        //     position: absolute;
+        //     width: 12px;
+        //     height: 8px;
+        //     background: #b2b2b2;
+        //     right: 5px;
+        //     top: 20px;
+        //     z-index: 1;
+        //     clip-path: polygon(100% 0, 0 0, 50% 100%);
+        //  }
+      }
+      > span{
+        display: block;
+  
+        > input[type="text"], > input[type="email"], > input[type="tel"]{
+          width: 100%;
+          display: block;
+          border-radius: 0;
+          border: 2px solid rgba(0,0,0,0.34);
+          font-size: 1rem;
+          font-weight: 500;
+          padding: 0.7rem 1rem;
+          color:#000;
+          line-height: 1;
+          height: 45px;
+        }
+        > select::-ms-expand{
+            display: none;
+        }
+        > select{
+            width: 100%;
+            display: block;
+            border-radius: 0;
+            border: 2px solid rgba(0,0,0,0.34);
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0.7rem 2rem 0.7rem 0.7rem;
+            color:#00000075;
+            line-height: 1;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: url("images/arrow_down.png") no-repeat scroll 101% center;
+            height: 45px;
+        }  
+
+        > textarea{
+          width: 100%;
+          display: block;
+          border-radius: 0;
+          border: 2px solid rgba(0,0,0,0.34);
+          font-size: 1rem;
+          font-weight: 500;
+          padding: 0.7rem 1rem;
+          color:#000;
+          line-height: 120%;
+          height: 9em;
+          resize: none;
+        }
+  
+        > span.wpcf7-not-valid-tip{
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 0.5rem;
+          line-height: 120%;
+          font-weight: 800;
+          background: #f00;
+          color: #fff;
+          
+          padding: 0.2rem;
+        }
+  
+      }
+    }
+  
+    .hpcontact__btn{
+      padding: 3rem 0 0 0;
+  
+      input[type="submit"]{
+        line-height: 1;
+        background: #4db549;
+        color: #fff;
+        font-size: 1.125rem;
+        font-weight: 700;
+        border-radius: 0;
+        border: 2px solid #4db549;
+        padding: 0.7rem 3rem;
+      }
+      input[type="submit"]:hover{
+        color: #4db549;
+        background: transparent;
+      }
+    }
+  
+    .hpcontact__response{
+      padding: 0;
+      > .wpcf7-response-output{
+        padding: 1.5rem 0 0 0;
+        border: 0;
+        font-size: 0.8rem;
+        margin: 0;
+      }
+      > .wpcf7-validation-errors{
+        color: #f00;
+      }
+      > .wpcf7-mail-sent-ok{
+        color: #4db549;
+      }
+    }
+}
+
+  /** BY KENNETH END **/
+
+  .rev_header__author .rev_header__author_info p span.last__updated{
+    padding: 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    opacity: 0.3;
+    display: block;
+  }
+
+
+#popupformbtn_mob{
+    display: none;
+}
+#popupformbtn_mob{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.popup_form__btn_mob{
+    padding: 0;
+    position: relative;
+    top: 14px;
+
+    a:link, a:visited, a:active{
+        text-decoration: none;
+        font-weight: 700;
+        background: #4db549;
+        color: #fff;
+        line-height: 1;
+        padding: 0.7rem 1rem;
+        font-size: 0.8rem;
+    }
+    a:hover{
+        color: #033f01;
+    }
+}
+
+
+
+
+@media only screen and (min-width : 1920px) and (max-width : 1900px) {}
+@media only screen and (max-width : 1920px ) {
+}
+@media only screen and (max-width : 1899px ) {
+
+}
+@media only screen and (max-width : 1880px ) {
+}
+@media only screen and (max-width : 1860px ) {
+}
+@media only screen and (max-width : 1830px ) {
+}
+@media only screen and (max-width : 1799px ) {
+
+}
+@media only screen and (max-width : 1780px ) {
+}
+@media only screen and (max-width : 1760px ) {
+}
+@media only screen and (max-width : 1730px ) {
+}
+@media only screen and (max-width : 1699px ) {
+}
+@media only screen and (max-width : 1680px ) {
+}
+@media only screen and (max-width : 1660px ) {
+}
+@media only screen and (max-width : 1630px ) {
+}
+@media only screen and (max-width : 1599px ) {
+}
+@media only screen and (max-width : 1580px ) {
+}
+@media only screen and (max-width : 1560px ) {
+}
+@media only screen and (max-width : 1530px ) {
+
+}
+@media only screen and (max-width : 1499px ) {
+}
+@media only screen and (max-width : 1480px ) {
+}
+@media only screen and (max-width : 1460px ) {
+}
+@media only screen and (max-width : 1440px ) {
+}
+@media only screen and (max-width : 1430px ) {
+}
+@media only screen and (max-width : 1399px ) {
+}
+@media only screen and (max-width : 1380px ) {
+}
+@media only screen and (max-width : 1360px ) {
+}
+@media only screen and (max-width : 1330px ) {
+}
+@media only screen and (max-width : 1299px ) {
+}
+@media only screen and (max-width : 1280px ) {
+}
+@media only screen and (max-width : 1260px ) {
+}
+@media only screen and (max-width : 1230px ) {
+    #content .nlp__group_block4 > .wp-block-group__inner-container, #content .nlp__group_block6 > .wp-block-group__inner-container,
+    #content .nlp__group_block7 .wp-block-group__inner-container {
+        width: 96%;
+    }
+    #content .nlp__group_block4 {
+        padding: 5rem 0;
+    }
+    #content .nlp__group_block7, .page-template-temp-landingpage #content #latest__post{
+        padding: 4rem 0;
+    }
+
+}
+@media only screen and (max-width : 1199px ) {
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 47.5%;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info .fptitle__h4 {
+        width: 42%;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info .fpright {
+        float: left;
+        width: 56%;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        width: 16%;
+        margin: 0 2% 0 4.5%;
+        top: -2rem;
+    }
+    
+
+}
+@media only screen and (max-width : 1180px ) {
+
+
+}
+@media only screen and (max-width : 1160px ) {
+    #content .partners__logo .partnerslogo__cell img {
+        margin: 0.5rem 1.5rem 0;
+    }
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__field {
+        float: left;
+    }
+}
+@media only screen and (max-width : 1147px ) {
+
+
+}
+@media only screen and (max-width : 1130px ) {
+    #featured__platform_box #fpc__block .featured_platform_content__info .fpright {
+        float: left;
+        width: 58%;
+    }
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__field {
+        float: left;
+        width: 73%;
+    }
+
+}
+@media only screen and (max-width : 1120px ) {
+
+}
+@media only screen and (max-width : 1099px ) {
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 50.5%;
+    }
+
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        width: 16%;
+        margin: 0 2% 0 3.5%;
+        top: -1rem;
+    }
+    #featured__platform_box #fpc__block .fp_licenses_btns {
+        position: relative;
+        top: 2.5rem;
+    }
+
+}
+@media only screen and (max-width : 1080px ) {
+
+}
+@media only screen and (max-width : 1060px ) {
+
+
+}
+@media only screen and (max-width : 1030px ) {
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image {
+        align-items: normal;
+        height: 375px;
+    }
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image .banner_image_right img {
+        width: 650px;
+        max-width: unset;
+        right: -209px;
+        top: -1rem;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 54.5%;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        margin: 0 2% 0 2.5%;
+    }
+
+
+}
+@media only screen and (max-width : 1024px ) {
+
+}
+@media only screen and (max-width : 999px ) {
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image .banner_image_right img {
+        width: 590px;
+    }
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image {
+        align-items: normal;
+        height: auto;
+    }
+    .page-template-temp-landingpage #sec-content.def_temp {
+        padding: 5rem 0 4rem;
+    }
+    #content .partners__logo {
+        padding: 0 0 5rem;
+    }
+    #content .nlp__group_block4 {
+        padding: 4rem 0;
+    }
+
+}
+@media only screen and (max-width : 980px ) {
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__btn {
+        float: left;
+        padding: 0 0 0 2rem !important;
+    }
+    .mfp-content #target-form .popupform__wrapper .popupform__right .popup__img {
+        width: 600px;
+    }
+    #the_popup_form #hpcontact__form.tp__form .hpcontact__btn {
+        padding: 1.5rem 0 0 0;
+    }
+
+}
+@media only screen and (max-width : 960px ) {
+    .page-template-temp-landingpage #content .featured_platform__wrapper #featured__platform_box {
+        padding: 2rem 2.5rem 2rem 2.5rem;
+        border-radius: 0;
+    }
+    .page-template-temp-landingpage #content .featured_platform__wrapper .fp__featured {
+        top: 1.5rem;
+        left: -4.9rem;
+        font-size: 0.5rem;
+    }
+
+}
+@media only screen and (max-width : 930px ) {
+
+    #featured__platform_box #fpc__block .featured_platform_content__info .fptitle__h4 {
+        width: 100%;
+        float: unset;
+        font-size: 1.5rem;
+        padding: 0 0 0.5rem;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info .fpright {
+        float: unset;
+        width: auto;
+    }
+    .page-template-temp-landingpage .featured_platform_content__info .featured_platform_content__icont.fpc__solutions,
+    .page-template-temp-landingpage .featured_platform_content__info .featured_platform_content__icont.fpc__products {
+        padding: 0.5rem 0 0 0;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 40%;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        margin: 0 2% 0 2%;
+        top: 6px;
+        width: 21%;
+    }
+    #featured__platform_box #fpc__block .fp_licenses_btns {
+        position: relative;
+        top: 4rem;
+        width: 26%;
+    }
+    #content #featured__platform_box .platform_logo {
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .page-template-temp-landingpage #software__info .software__info__logo, #software__info .software__info__logo {
+        float: none;
+        margin: 0;
+    }
+
+}
+@media only screen and (max-width : 920px ) {
+
+}
+@media only screen and (max-width : 899px ) {
+    .mfp-content #target-form {
+        padding: 2rem;
+    }
+
+}
+@media only screen and (max-width : 880px ) {
+    #hpcontact__form.tp__form {
+        width: 100% !important;
+        margin-bottom: 0rem;
+    }
+    .mfp-content #target-form .popupform__wrapper .popupform__right .popup__img {
+        width: 560px;
+        top: 34px;
+    }
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__btn {
+        float: left;
+        padding: 0 0 0 3% !important;
+    }
+
+}
+@media only screen and (max-width : 860px ) {
+
+
+}
+@media only screen and (max-width : 830px ) {
+    #content .nlp__group_block4{
+        margin-bottom: 3rem;
+    }
+    #content .nlp__group_block6 {
+        margin-bottom: 4rem;
+    }
+    .page-template-temp-landingpage #sec-content.def_temp {
+        padding: 4rem 0 3rem;
+    }
+    .resp_spacer_bottom__2rem {
+        padding: 0 0 2rem;
+    }
+    #content .nlp__block2 {
+        flex-direction: column;
+    }
+    #content .nlp__block2 > .wp-block-column:nth-child(1) {
+        width: 100%;
+        padding: 0 0 1rem 0;
+    }
+    #content .nlp__block2 > .wp-block-column:nth-child(2) {
+        width: 100%;
+    }
+    .resp_spacer_bottom__2rem {
+        padding: 0 0 0rem;
+    }
+    #content .partners__logo {
+        padding: 0 0 4rem;
+    }
+
+    #content .nlp__group_block4 {
+        padding: 3rem 0;
+    }
+    .resp_spacer_topbottom__3rem {
+        padding: 3em 0 2em;
+    }
+}
+@media only screen and (max-width : 799px ) {
+
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image .banner_image_right img {
+        width: 530px;
+    }
+    .lpt__entryheader #page_header_image .entry-content {
+        padding-top: 2.5rem;
+    }
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image {
+        height: auto;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column {
+        width: 46%;
+        margin: 2rem 4.1% 0 0 !important;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column:nth-child(1), 
+    #content .nlp__group_block4__cols > .wp-block-column:nth-child(2){
+        margin-top: 0 !important;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column:nth-child(even){
+        margin-right: 0 !important;
+    }
+    #content .nlp__group_block6 > .wp-block-group__inner-container {
+        padding: 2rem 0;
+    }
+    #content .nlp__block6 .wp-block-column {
+        width: 50%;
+        flex-basis: unset;
+        flex-grow: unset;
+        margin: 2rem 0 0 0;
+    }
+    #content .nlp__block6 .wp-block-column:nth-child(1), #content .nlp__block6 .wp-block-column:nth-child(2){
+        margin-top: 0;
+    }
+    #content .nlp__block6 .wp-block-column:nth-child(5){
+        width: 100%;
+        flex-basis: unset !important;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info .fptitle__h4 {
+        font-size: 1.3rem;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 42%;
+    }
+    #software__info {
+        margin: 0 auto 2rem;
+    }
+}
+@media only screen and (max-width : 780px ) {
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image {
+        height: auto;
+    }
+    .lpt__entryheader #page_header_image .entry-content {
+        padding-top: 2rem;
+        width: 100%;
+    }
+    .lpt__entryheader #page_header_image .banner_image_right {
+        width: 100%;
+        position: relative;
+    }
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image .banner_image_right img {
+        width: 80%;
+        position: relative;
+        right: unset;
+        top: unset;
+    }
+    .page-template-temp-landingpage .lpt__entryheader #page_header_image .banner_image_right {
+        width: 100%;
+        position: relative;
+        padding: 1.5rem 0 1.5rem;
+    }
+    .page-template-temp-landingpage .lpt__entryheader .lpt_entryheader__content {
+        width: auto;
+    }
+    .mfp-content #target-form .popupform__wrapper .popupform__right .popup__img {
+        width: 530px;
+        top: 57px;
+    }
+
+}
+@media only screen and (max-width : 765px ) {
+    .resp_spacer_topbottom__3rem {
+        padding: 2em 0 1em;
+    }
+    #content .nlp__group_block7, .page-template-temp-landingpage #content #latest__post {
+        padding: 3rem 0;
+    }
+    page-template-temp-landingpage .nlp__group_block7__margin {
+        margin: 0 auto 2rem;
+    }
+
+
+}
+@media only screen and (max-width : 760px ) {
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__field {
+        float: none;
+        width: 100%;
+        padding: 0 0 1rem !important;
+    }
+    .page-template-temp-landingpage #hpcontact__form.hp__newsletterform .hpcontact__btn {
+        float: none;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    .page-template-temp-landingpage #content #hpcontact__form .hpcontact__btn input[type="submit"] {
+        border-radius: 0;
+        height: 45px;
+        display: block;
+        width: 100%;
+    }
+    .page-template-temp-landingpage #content #hpcontact__form .hpcontact__field > span > input[type="email"] {
+        text-align: center;
+    }
+    .page-template-temp-landingpage #content form.wpcf7-form #hpcontact__form .hpcontact__btn .ajax-loader{
+        display: none;
+        position: relative;
+        width: 100%;
+        left: unset;
+        margin: 0 auto;
+        bottom: unset;
+        text-align: center;
+    }
+    .page-template-temp-landingpage #content form.wpcf7-form.submitting #hpcontact__form .hpcontact__btn .ajax-loader{
+        display: block;
+        margin: 0 auto !important;
+    }
+}
+@media only screen and (max-width : 736px ) {
+}
+@media only screen and (max-width : 730px ) {
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: 45%;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        margin: 0 0 0 0%;
+        top: 12px;
+        width: 25%;
+    }
+    .page-template-temp-landingpage #content .featured_platform__wrapper #featured__platform_box {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .mfp-content #target-form .popupform__wrapper .popupform__right {
+        display: none;
+    }
+    .mfp-content #target-form .popupform__wrapper .popupform__left {
+        float: unset;
+        width: auto;
+    }
+    .mfp-content #target-form {
+        padding: 2rem;
+    }
+    #the_popup_form #hpcontact__form.tp__form .hpcontact__btn {
+        padding: 1rem 0 0 0;
+    }
+}
+@media only screen and (max-width : 699px ) {
+    #content .partners__logo {
+        padding: 0 0 3rem;
+    }
+    #content .nlp__group_block6 {
+        margin-bottom: 3rem;
+    }
+    #content .the_icon__box .theiconbox__content {
+        padding: 0;
+        padding: 2rem 2.5rem 2rem 2.5rem;
+    }
+    #content .the_icon__box .theiconbox__item {
+        width: 100%;
+    }
+    #content .the_icon__box .theiconbox__wrapper {
+        flex-direction: column;
+    }
+    #content .the_icon__box .theiconbox__content {
+        padding: 0;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    #content .the_icon__box .theiconbox__content img {
+        display: block;
+        margin: 0 auto 1rem;
+    }
+    #content .the_icon__box .theiconbox__content h3 {
+        font-size: 1rem;
+        font-weight: 800;
+        color: #fff;
+        text-align: center;
+    }
+    #content .the_icon__box .theiconbox__content p{
+        text-align: center;
+    }
+    #content .the_icon__box .theiconbox__item:nth-child(3) {
+        border-right: unset;
+        border-bottom: 1px solid #fff;
+    }
+    .page-template-temp-landingpage #sec-content.def_temp {
+        padding: 3rem 0 2rem;
+    }
+    #content .partners__logo .partnerslogo__cell img {
+        margin: 1rem 1.5rem 0;
+        max-width: 120px;
+    }
+    #popupformbtn_mob{
+        display: block;
+    }
+}
+@media only screen and (max-width : 680px ) {
+}
+@media only screen and (max-width : 660px ) {
+    #software__info {
+        margin: 0 auto 1rem;
+        width: 400px;
+    }
+    #featured__platform_box #fpc__block .featured_platform_content__info {
+        width: auto;
+        float: none;
+        text-align: center;
+        clear: both;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper {
+        margin: 0.5rem 0;
+        top: unset;
+        width: auto;
+        float: none;
+        text-align: center;
+    }
+    #featured__platform_box #fpc__block .fpl__wrapper .fpl__img {
+        padding: 0 0.5rem !important;
+    }
+    #featured__platform_box #fpc__block .fp_licenses_btns {
+        position: relative;
+        top: unset;
+        width: 80%;
+        float: unset;
+        margin: 2rem auto 0;
+    }
+
+
+}
+@media only screen and (max-width : 630px ) {
+    #content .nlp__group_block4{
+        margin-bottom: 2rem;
+    }
+} 
+@media only screen and (max-width : 599px ) {
+    #content .nlp__group_block4__cols {
+        flex-direction: column;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column {
+        width: 100% !important;
+        margin: 2rem 0% 0 0 !important;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column:nth-child(1){
+        margin-top: 0 !important;
+    }
+    #content .nlp__group_block4__cols > .wp-block-column:nth-child(2) {
+        margin-top: 2rem !important;
+    }
+}
+@media only screen and (max-width : 595px ) {
+
+
+    #content .nlp__group_block4 {
+    padding: 2rem 0;
+    }
+    #content .nlp__block6 {
+        flex-direction: row;
+    }
+    #content .nlp__block6 .wp-block-column {
+        flex-basis: unset !important;
+    }
+    #content .nlp__block6 .wp-block-column:nth-child(1){
+
+    }
+    .page-template-temp-landingpage #software__info .software__info__urls {
+        float: none;
+        position: relative;
+        top: unset;
+        clear: both;
+        text-align: center;
+    }
+    .page-template-temp-landingpage #software__info .software__info__logo {
+        float: unset;
+        margin: 0;
+        color: beige;
+    }
+
+    #software__info {
+        margin: 0 auto 1.5rem;
+        width: auto;
+    }
+    #content #featured__platform_box .platform_logo {
+        float: none;
+        display: block;
+    }
+}
+@media only screen and (max-width : 580px ) {
+    #content .partners__logo .partnerslogo__title h2 {
+        padding: 0 0 1rem;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    #content .partners__logo .partnerslogo__cell img {
+        margin: 1rem 1.5rem 0;
+        max-width: 90px;
+    }
+
+}
+@media only screen and (max-width : 560px ) {
+
+}
+@media only screen and (max-width : 530px ) {
+}
+@media only screen and (max-width : 530px ) {
+    .resp_spacer_topbottom__3rem {
+        padding: 1em 0 1em;
+        margin-bottom: 0 !important;
+    }
+    .page-template-temp-landingpage .nlp__group_block7__margin {
+        margin: 0 auto 1rem;
+    }
+    #content .banner_bottom__helper{
+        margin-bottom: 0;
+    }
+
+}
+@media only screen and (max-width : 595px ) {
+}
+ 
+@media only screen and (max-width : 499px ) {
+}
+@media only screen and (max-width : 480px ) {
+}
+@media only screen and (max-width : 460px ) {
+}
+
+
+
+@media only screen and (max-width : 430px ) {
+    #content .nlp__block6 {
+        flex-direction: column;
+    }
+    #content .nlp__block6 .wp-block-column {
+        width: 100%;
+        margin: 1.5rem 0 0 0 !important;
+    }
+    #content .nlp__block6 .wp-block-column:nth-child(1){
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (max-width : 426px ) {
+    #the_popup_form #hpcontact__form.tp__form .hpcontact__field>span span.wpcf7-acceptance>span.wpcf7-list-item label input[type=checkbox]+span{
+        left: 0;
+    }
+}
+  
+@media only screen and (max-width : 399px ) {
+}
+@media only screen and (max-width : 380px ) {
+}
+@media only screen and (max-width : 360px ) {
+	  
+}
+@media only screen and (max-width : 330px ) {}
+  
+@media only screen and (max-width : 320px ) {
+
+}

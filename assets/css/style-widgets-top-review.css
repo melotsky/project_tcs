@@ -1,0 +1,427 @@
+#top_review_hp{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+ }
+
+ #top_review_hp .top_review__item{
+    width: calc(33.3333% - (.66666666666667*32px));
+    background:#fff;
+    border-radius: 11px;
+    overflow: hidden;
+    align-self: stretch;
+    padding: 2rem;
+ }
+
+ #top_review_hp .top_review__header{
+     padding: 0 0 1.5rem;
+     display: table;
+     margin: 0 auto;
+ }
+ #top_review_hp .top_review__header .top_review__logo {
+    float: left;
+    width: 59px;
+    margin: 0 1rem 0 0;
+    border-radius: 50%;
+}
+#top_review_hp .top_review__header .top_review__title_stars {
+    float: left;
+    padding: 3px 0 0 0;
+}
+#top_review_hp .top_review__header .top_review__title_stars h3 {
+    padding: 0;
+    font-size: 1.4rem;
+    line-height: 120%;
+    font-weight: 900;
+}
+#top_review_hp .top_review__header .top_review__title_stars .top_review__starsholder {
+    color: #4db549;
+    font-size: 1.2rem;
+    line-height: 120%;
+    padding: 0.2rem 0 0 0;
+}
+ #top_review_hp .top_review__header .top_review__title_stars  .top_review__stars span{
+    padding: 0 4px 0 0;
+ }
+ 
+.top_review__content .top_review__content__para{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+ }
+
+.top_review__solution_icons{
+    text-align: center;
+}
+
+.top_review__solution_icons .tricon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/product-sprite-icons.png);
+    margin: 0 0.3rem 0.5rem;
+}
+
+.top_review__wrapper .top_review__license_logo {
+    padding: 1rem 0 0 0;
+}
+.top_review__wrapper .top_review__license_logo > .top_review__lgtable {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.top_review__wrapper .top_review__license_logo > .top_review__lgtable > .top_review__lgtablecell{
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.top_review__wrapper .top_review__license_logo > .top_review__lgtable > .top_review__lgtablecell > .top_review__lgitem{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.5rem 0.5rem;
+    max-width: 144px;
+}
+.top_review__wrapper .top_review__license_logo > .top_review__lgtable > .top_review__lgtablecell > .top_review__lgitem img{
+    display: block;
+}
+
+.top_review__wrapper .top_review__urls {
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+.top_review__wrapper .top_review__urls .get__started:link, .top_review__wrapper .top_review__urls .get__started:visited, .top_review__wrapper .top_review__urls .get__started:active {
+    background: #4db549;
+    border: 2px solid #4db549;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    width: 230px;
+    margin: 0 auto 0.5rem;
+}
+.top_review__wrapper .top_review__urls .get__started:hover{
+    background: transparent;
+    color: #4db549;
+}
+
+.top_review__wrapper .top_review__urls .read_review:link, .top_review__wrapper .top_review__urls .read_review:visited, .top_review__wrapper .top_review__urls .read_review:active{
+    background: transparent;
+    border: 0 none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem 0 0 0;
+    color:#4db549;
+    text-decoration: underline;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0 0 0 1.5rem;
+    border-radius: 0;
+    position: relative;
+    border-bottom-color: #79c776;
+    text-decoration-thickness: 2px
+
+}
+.top_review__wrapper .top_review__urls .read_review::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    font-family: fontawesome;
+}
+.top_review__wrapper .top_review__urls .read_review:hover{
+    opacity: 0.8;
+}
+
+/**
+Default View
+**/
+.top_review__solution_icons .tricon{}
+.top_review__solution_icons .tricon.tricon_bingo{
+    background-position: -53px 0px;
+}
+.top_review__solution_icons .tricon.tricon_poker{
+    background-position: -209px 0px;
+}
+.top_review__solution_icons .tricon.tricon_label{
+    background-position: -52px 0px;
+}
+.top_review__solution_icons .tricon.tricon_slots{
+    background-position: -314px 0px;
+}
+.top_review__solution_icons .tricon.tricon_betting{
+    background-position: 0px 0px;
+}
+.top_review__solution_icons .tricon.tricon_live{
+    background-position: -156px 0px;
+}
+
+.top_review__solution_icons .tricon.tricon_casinogames{
+    background-position: -104px 0px;
+}
+
+
+/**
+_n View
+**/
+.top_review__solution_icons .tricon.tricon_wrench_n{
+    background-position: -26px 0px;
+}
+.top_review__solution_icons .tricon.tricon_key_n{
+    background-position: -26px 0px;
+}
+.top_review__solution_icons .tricon.tricon_label_n{
+    background-position: -182px 0px;
+}
+.top_review__solution_icons .tricon.tricon_bowl_n{
+    background-position: -260px 0px;
+}
+.top_review__solution_icons .tricon.tricon_four_circles_n{
+    background-position: -338px 0px;
+}
+.top_review__solution_icons .tricon.tricon_cricle_stroke_n{
+    background-position: -416px 0px;
+}
+.top_review__solution_icons .tricon.tricon_dice_n{
+    background-position: -494px 0px;
+}
+.top_review__solution_icons .tricon.tricon_spade_n{
+    background-position: -572px 0px;
+}
+.top_review__solution_icons .tricon.tricon_machine_n{
+    background-position: -650px 0px;
+}
+.top_review__solution_icons .tricon.tricon_dollar_n{
+    background-position: -728px 0px;
+}
+
+/**
+_w View white icon with green background
+**/
+.top_review__solution_icons .tricon.tricon_wrench_w{
+    background-position: -52px 0px;
+}
+.top_review__solution_icons .tricon.tricon_key_w{
+    background-position: -130px 0px;
+}
+.top_review__solution_icons .tricon.tricon_label_w{
+    background-position: -208px 0px;
+}
+.top_review__solution_icons .tricon.tricon_bowl_w{
+    background-position: -286px 0px;
+}
+.top_review__solution_icons .tricon.tricon_four_circles_w{
+    background-position: -364px 0px;
+}
+.top_review__solution_icons .tricon.tricon_cricle_stroke_w{
+    background-position: -442px 0px;
+}
+.top_review__solution_icons .tricon.tricon_dice_w{
+    background-position: -520px 0px;
+}
+.top_review__solution_icons .tricon.tricon_spade_w{
+    background-position: -598px 0px;
+}
+.top_review__solution_icons .tricon.tricon_machine_w{
+    background-position: -676px 0px;
+}
+.top_review__solution_icons .tricon.tricon_dollar_w{
+    background-position: -754px 0px;
+}
+
+#top_review_hp .top_review__conturl {
+    padding: 1rem 0 0 0;
+}
+
+#top_review_hp .top_review__conturl p{
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0;
+    line-height: 120%;
+}
+#top_review_hp .top_review__conturl .top_review__country{
+    display: block;
+}
+
+#top_review_hp .top_review__conturl .top_review__url{
+    display: block;
+}
+#top_review_hp .top_review__conturl .top_review__url a:link, #top_review_hp .top_review__conturl .top_review__url a:visited, #top_review_hp .top_review__conturl .top_review__url a:active{
+    color: #4db549;
+    text-decoration: underline;
+}
+#top_review_hp .top_review__conturl .top_review__url a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 1194px ) {
+    #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width : 1094px ) {
+    #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width : 1060px ) {
+    .top_review__wrapper .top_review__urls {
+        padding: 1rem 0 0 0;
+    }
+    .top_review__wrapper .top_review__license_logo > .top_review__lgtable > .top_review__lgtablecell > .top_review__lgitem {
+        padding: 0.5rem 0.5rem 0;
+    }
+
+}
+@media only screen and (max-width : 1024px ) {
+    #top_review_hp .top_review__item {
+        padding: 1.5rem;
+    }
+    /* #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1.3rem;
+    } */
+}
+@media only screen and (max-width : 999px ) {
+    .top_review__content .top_review__content__para {
+        font-size: 0.9rem;
+    }
+    #top_review_hp .top_review__conturl p {
+        font-size: 0.9rem;
+    }
+    .top_review__solution_icons .tricon {
+        margin: 0 0.5rem 0.3rem 0;
+    }
+}
+@media only screen and (max-width : 960px ) {
+    .top_review__wrapper .top_review__urls .get__started:link, .top_review__wrapper .top_review__urls .get__started:visited, .top_review__wrapper .top_review__urls .get__started:active,
+    .top_review__wrapper .top_review__urls .read_review:link, .top_review__wrapper .top_review__urls .read_review:visited, .top_review__wrapper .top_review__urls .read_review:active {
+        /* padding: 0.7rem 1.5rem; */
+        width: auto;
+    }
+}
+@media only screen and (max-width : 947px ) {
+    #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width : 930px ) {
+    #top_review_hp .top_review__header .top_review__logo {
+        float: left;
+        width: 50px;
+        margin: 0 0.5rem 0 0;
+    }
+    /* #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1.2rem;
+    } */
+    #top_review_hp .top_review__header .top_review__title_stars {
+        float: left;
+        padding: 1px 0 0 0;
+    }
+    #top_review_hp .top_review__header .top_review__title_stars .top_review__starsholder {
+        font-size: 1rem;
+    }
+    #top_review_hp .top_review__item {
+        width: calc(33.3333% - (.66666666666667*1rem));
+    }
+    .top_review__solution_icons .tricon {
+        margin: 0 0.2rem 0.3rem;
+    }
+}
+
+@media only screen and (max-width : 899px ) {
+    .top_review__solution_icons{
+        font-size: 0;
+    }
+
+}
+@media only screen and (max-width : 880px ) {
+    #top_review_hp .top_review__item {
+        padding: 1rem;
+    }
+
+}
+@media only screen and (max-width : 860px ) {
+    #top_review_hp {
+        flex-direction: column;
+    }
+    #top_review_hp .top_review__item:first-child {
+        margin: 0;
+    }
+    #top_review_hp .top_review__item {
+        margin: 1.5rem 0 0;
+        width: 100%;
+    }
+    .top_review__wrapper .top_review__urls .get__started:link, .top_review__wrapper .top_review__urls .get__started:visited, .top_review__wrapper .top_review__urls .get__started:active, .top_review__wrapper .top_review__urls .read_review:link, .top_review__wrapper .top_review__urls .read_review:visited, .top_review__wrapper .top_review__urls .read_review:active {
+        width: auto;
+        margin: 0 0.2rem 0.5rem;
+    }
+    #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1.2rem;
+    }
+
+}
+@media only screen and (max-width : 599px ) {
+    
+    .top_review__wrapper .top_review__urls .get__started:link, .top_review__wrapper .top_review__urls .get__started:visited, .top_review__wrapper .top_review__urls .get__started:active, .top_review__wrapper .top_review__urls .read_review:link, .top_review__wrapper .top_review__urls .read_review:visited, .top_review__wrapper .top_review__urls .read_review:active {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width : 530px ) {
+    #top_review_hp .top_review__header .top_review__logo {
+        float: none;
+        width: auto;
+        margin: 0 auto 1rem;
+        display: block;
+    }
+    #top_review_hp .top_review__header .top_review__title_stars {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    #top_review_hp .top_review__header .top_review__title_stars h3 {
+        font-size: 1.5rem;
+    }
+    .top_review__content .top_review__content__para {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .top_review__solution_icons {
+        text-align: center;
+    }
+    #top_review_hp .top_review__conturl p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    #top_review_hp .top_review__item {
+        padding: 1rem;
+    }
+    .top_review__solution_icons .tricon {
+        margin: 0 0.3rem 0.3rem;
+    }
+
+}
+@media only screen and (max-width : 380px ) {
+    .top_review__wrapper .top_review__urls .get__started:link, 
+    .top_review__wrapper .top_review__urls .get__started:visited, 
+    .top_review__wrapper .top_review__urls .get__started:active, 
+    .top_review__wrapper .top_review__urls .read_review:link, 
+    .top_review__wrapper .top_review__urls .read_review:visited, 
+    .top_review__wrapper .top_review__urls .read_review:active {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        margin: 0 auto 0.3rem;
+        display: table;
+        width: auto;
+    }
+}

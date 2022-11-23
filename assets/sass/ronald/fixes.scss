@@ -1,0 +1,83 @@
+.ourteam-row.advpk__block1 {
+    text-align: left;
+    .wp-block-column {
+        p {
+            font-weight: normal;
+        }
+    }
+}
+.ourteam-cols.wp-block-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .wp-block-column {
+        margin-left: 0!important;
+        .team-heading {
+            .wp-block-group__inner-container {
+                display: flex;
+                align-items: center;
+                figure {
+                    display: inline-block;
+                    margin-right: 1rem;
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+        h3 {
+            span {
+                display: block;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+            
+        }
+    }
+}
+
+.ourservice-row {
+    padding: 6rem 0 3rem;
+    .services-cols.wp-block-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        .wp-block-column {
+            border: #d7d7d7 solid 1px;
+            padding: 2rem 1rem;
+            align-self: stretch;
+            &:not(:first-child) {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+#content .schema-faq > .schema-faq-section {
+    margin: 0.5rem 0 0;
+}
+
+#content .schema-faq > .schema-faq-section .schema-faq-answer {
+    padding-bottom: 2rem;
+  }
+
+#content .aboutus-quote > .wp-block-column:nth-child(1) {
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+@media screen and (min-width: 600px) {
+    .ourteam-cols.wp-block-columns {
+        grid-template-columns: repeat(2, auto);
+        .wp-block-column {
+            margin-left: 0;
+        }    
+    }   
+    .ourservice-row {
+        .services-cols.wp-block-columns {
+            grid-template-columns:  repeat(3, auto);
+        }
+    }
+}

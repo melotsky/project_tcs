@@ -1,0 +1,84 @@
+{
+    "key": "group_60b75c4f5560a",
+    "title": "Partners Logo - Options",
+    "fields": [
+        {
+            "key": "field_60b75c60ef421",
+            "label": "Partners Logo",
+            "name": "partners_logo_rep",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 4,
+            "layout": "block",
+            "button_label": "Add Logo",
+            "sub_fields": [
+                {
+                    "key": "field_60b75cc8ef422",
+                    "label": "Logo",
+                    "name": "logo_rep",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "full",
+                    "library": "all",
+                    "min_width": 150,
+                    "min_height": 20,
+                    "min_size": "",
+                    "max_width": 263,
+                    "max_height": 60,
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60b75d51ef423",
+                    "label": "Link",
+                    "name": "link_rep",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1622632783
+}

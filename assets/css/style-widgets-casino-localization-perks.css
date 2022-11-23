@@ -1,0 +1,20 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+
+.casino_localizationperks__wrapper{
+    padding: 0 0 0.5rem;
+}
+
+.casino_localizationperks_flag{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(images/localization-perks/localization-sprite.png);
+    margin: 0 1.2rem 0.9rem 0;
+    float: left;
+}
+
+.lp_flag_us{
+    background-position: 0px 0px;
+}
+
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/

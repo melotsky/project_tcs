@@ -1,0 +1,460 @@
+#content .featured_platform__wrapper > a:link, #content .featured_platform__wrapper > a:visited, #content .featured_platform__wrapper > a:active{
+    text-decoration: none;
+    color: unset;
+}
+#content .featured_platform__wrapper > a:hover{
+    text-decoration: none;
+}
+
+#content .featured_platform__wrapper #featured__platform_box {
+    padding: 3rem 3.5rem 0 3.5rem;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+    background-color: #2f2f2f !important;
+    position: relative !important;
+}
+.safari #content .featured_platform__wrapper #featured__platform_box {
+    background: url(images/featured-platform-bg.jpg);
+}
+#content #featured__platform_box .platform_logo {
+    float: left;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    width: auto;
+}
+#content #featured__platform_box .platform_info {
+    padding: 0 0 0 2rem;
+    float: left;
+}
+
+#content #featured__platform_box .platform_info p span:nth-child(2) > a:link, 
+#content #featured__platform_box .platform_info p span:nth-child(2) > a:visited, 
+#content #featured__platform_box .platform_info p span:nth-child(2) > a:active{
+    color: #4db549;
+    text-decoration: underline;
+}
+#content #featured__platform_box .platform_info p span:nth-child(2) > a:hover{}
+
+#featured__platform_box .featured_platform_content__info {
+    clear: both;
+    padding: 2rem 0 0 0;
+}
+#content .featured__platform > .wrapper-inner > .wrapper-inner-blocks > .featured__platform_inner_wrapper > .wp-block-column:nth-child(2) a::after{
+    display: none !important;
+}
+.featured_platform_content__info .featured_platform_content__icont:first-child{
+    padding: 0;
+}
+.featured_platform_content__info .featured_platform_content__icont{
+    padding: 0;
+}
+.featured_platform_content__info .featured_platform_content__icont.fpc__solutions{
+    padding: 1.5rem 0 0 0;
+}
+.featured_platform_content__info .featured_platform_content__icont.fpc__products{
+    padding: 1rem 0 0 0;
+}
+.featured_platform_content__info .featured_platform_content__icont .fptitle__h4{
+    float: left;
+    width: 40.7%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.featured_platform_content__info .featured_platform_content__icont .fpright{
+    float: left;
+    width: 58%;
+}
+
+.featured_platform_content__info .featured_platform_content__icont .featured_platform_content__stars{
+    color: #4db549;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+
+
+.featured_platform_content__info .featured_platform_content__icont .featured_platform_content__solutions{
+    padding: 3px 0 0 0;
+}
+
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/services-sprite-icon.png);
+    margin: 0 0.813rem 0.5rem 0;
+}
+
+
+/**
+Default View
+**/
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_wrench{
+    background-position: 0px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_key{
+    background-position: -78px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_label{
+    background-position: -156px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_bowl{
+    background-position: -234px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_four_circles{
+    background-position: -312px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_cricle_stroke{
+    background-position: -390px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dice{
+    background-position: -468px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_spade{
+    background-position: -546px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_machine{
+    background-position: -624px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dollar{
+    background-position: -702px 0px;
+}
+
+/**
+_n View
+**/
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_wrench_n{
+    background-position: -26px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_key_n{
+    background-position: -104px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_label_n{
+    background-position: -182px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_bowl_n{
+    background-position: -260px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_four_circles_n{
+    background-position: -338px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_cricle_stroke_n{
+    background-position: -416px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dice_n{
+    background-position: -494px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_spade_n{
+    background-position: -572px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_machine_n{
+    background-position: -650px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dollar_n{
+    background-position: -728px 0px;
+}
+
+/**
+_w View white icon with green background
+**/
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_wrench_w{
+    background-position: -52px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_key_w{
+    background-position: -130px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_label_w{
+    background-position: -208px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_bowl_w{
+    background-position: -286px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_four_circles_w{
+    background-position: -364px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_cricle_stroke_w{
+    background-position: -442px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dice_w{
+    background-position: -520px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_spade_w{
+    background-position: -520px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_machine_w{
+    background-position: -598px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__solutions .fpsicon.fpsicon_dollar_w{
+    background-position: -754px 0px;
+}
+
+
+.featured_platform_content__info .featured_platform_content__icont .featured_platform_content__products{}
+
+.featured_platform_content__icont .featured_platform_content__products .fppicon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/product-sprite-icons.png);
+    margin: 0 0.813rem 0.5rem 0; 
+}
+
+/**
+Default View
+**/
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_flower{
+    background-position: -105px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_casinogames{
+    background-position: -105px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_machine{
+    background-position: -314px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_slots{
+    background-position: -314px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_dice{
+    background-position: -52px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_bingo{
+    background-position: -52px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_horse{
+    background-position: 0px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_betting{
+    background-position: 0px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_spade{
+    background-position: -210px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_poker{
+    background-position: -210px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_clover{
+    background-position: -157px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_live{
+    background-position: -157px 0px;
+}
+
+/**
+_n View
+**/
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_flower_n{
+    background-position: -26px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_machine_n{
+    background-position: -104px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_dice_n{
+    background-position: -182px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_horse_n{
+    background-position: -260px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_spade_n{
+    background-position: -338px 0px;
+}
+.featured_platform_content__icont .featured_platform_content__products .fppicon.fppicon_clover_n{
+    background-position: -416px 0px;
+}
+
+
+#featured__platform_box .fp_licenses_logo {
+    padding: 2rem 0 0 0;
+    clear: both;
+}
+#featured__platform_box .fpl__table{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#featured__platform_box .fpl__tablecell{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#featured__platform_box .fpl__tablecell span.fpl__img{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2% 0.5rem;
+}
+
+#featured__platform_box .fpl__tablecell span.fpl__img img{
+    display: block;
+}
+
+
+.fp_licenses_btns{
+    padding: 2rem 0 0 0;
+}
+.fp_licenses_btns .get__started:link, .fp_licenses_btns .get__started:visited, .fp_licenses_btns .get__started:active{
+    display: inline-block;
+    margin: 0 1rem 0 0;
+    background:  #4db549;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 4rem;
+    border-radius: 0;
+    border: 2px solid #4db549;
+}
+.fp_licenses_btns .get__started:hover{
+    opacity: 0.8;
+}
+
+.fp_licenses_btns .read__review:link, .fp_licenses_btns .read__review:visited, .fp_licenses_btns .read__review:active{
+    display: inline-block;
+    margin: 0;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 4rem;
+    border-radius: 0;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+}
+.fp_licenses_btns .read__review:hover{
+    opacity: 0.8;
+    background: #4db549;
+}
+
+
+@media only screen and (max-width : 1180px ) {
+    .featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+        font-size: 1.3rem;
+    }    
+    #featured__platform_box .fpl__tablecell span.fpl__img {
+        max-width: 150px;
+    }
+
+}
+@media only screen and (max-width : 1160px ) {
+    #content .featured_platform__wrapper #featured__platform_box {
+        padding: 3rem 3.5rem 1rem 3.5rem;
+    }
+}
+@media only screen and (max-width : 1080px ) {
+    .get__started:visited, .fp_licenses_btns .get__started:active {
+        padding: 1rem 3rem;
+    }
+}
+@media only screen and (max-width : 1060px ) {
+    .fp_licenses_btns .get__started:link, .fp_licenses_btns .get__started:visited, .fp_licenses_btns .get__started:active,
+    .fp_licenses_btns .read__review:link, .fp_licenses_btns .read__review:visited, .fp_licenses_btns .read__review:active {
+        padding: 1rem 3rem;
+    }
+    #content .featured_platform__wrapper #featured__platform_box {
+        padding: 3rem 3.5rem 2rem 3.5rem;
+    }
+
+}
+@media only screen and (max-width : 980px ) {
+    .featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+        font-size: 1.2rem;
+        padding: 0.1rem 0 0 0;
+        width: 32%;
+    }
+	#featured__platform_box .featured_platform_content__info {
+		clear: both;
+		padding: 0.5rem 0 0 0;
+	}
+
+}
+@media only screen and (max-width : 780px ) {
+    .featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+        width: 37%;
+    }
+    #featured__platform_box .fpl__tablecell span.fpl__img {
+        max-width: 120px;
+    }
+
+}
+@media only screen and (max-width : 760px ) {
+
+    .featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+        width: 39%;
+    }
+
+}
+@media only screen and (max-width : 730px ) {
+    #content .featured_platform__wrapper #featured__platform_box {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width : 699px ) {
+    .featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+        font-size: 1.2rem;
+        padding: 0 0 0.5rem;
+        width: 100%;
+        float: none;
+    }
+    .featured_platform_content__info .featured_platform_content__icont .fpright {
+        float: none;
+        width: 100%;
+    }
+
+    #content #featured__platform_box .platform_info {
+        padding: 0;
+        float: none;
+    }
+    #content #featured__platform_box .platform_logo {
+        float: none;
+    }
+    #content #featured__platform_box .platform_info p {
+        padding: 0;
+    }
+
+}
+@media only screen and (max-width : 680px ) {
+    .fp_licenses_btns .get__started:link, .fp_licenses_btns .get__started:visited, .fp_licenses_btns .get__started:active, .fp_licenses_btns .read__review:link, .fp_licenses_btns .read__review:visited, .fp_licenses_btns .read__review:active {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width : 630px ) {
+
+}
+@media only screen and (max-width : 560px ) {
+    #featured__platform_box .fpl__tablecell span.fpl__img {
+        margin: 0 2% 1rem;
+    }
+
+}
+@media only screen and (max-width : 430px ) {
+
+
+}
+
+@media only screen and (max-width : 399px ) {
+    .fp_licenses_btns .get__started:link, .fp_licenses_btns .get__started:visited, .fp_licenses_btns .get__started:active
+    {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        display: table;
+        margin: 0 0 1rem;
+    }
+    .fp_licenses_btns .read__review:link, .fp_licenses_btns .read__review:visited, .fp_licenses_btns .read__review:active{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        display: table;
+        margin: 0;
+    }
+
+}

@@ -1,0 +1,10 @@
+ #content .featured_platform__wrapper #featured__platform_box {
+    padding: 3rem 14rem 4rem 3.5rem;
+    border-radius: 13px;
+    border: 1px solid;
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+    background-color: 
+    #2f2f2f !important;
+    background: url(images/featured-platform-bg.jpg);
+}

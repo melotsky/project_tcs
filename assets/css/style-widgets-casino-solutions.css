@@ -1,0 +1,90 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+
+.casino_solutions__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+
+.casino_solutions__wrapper .casino_solutions__items {
+    width: 25%;
+    padding: 0 4%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    margin-top: 3.125rem;
+}
+
+.casino_solutions__wrapper .casino_solutions__items:nth-child(4n){}
+.casino_solutions__wrapper .casino_solutions__items:nth-child(4n) + .casino_solutions__items, .casino_solutions__wrapper .casino_solutions__items:nth-child(1){
+    border-left: 0 none;
+}
+
+.casino_solutions__wrapper .casino_solutions__items:nth-child(1), .casino_solutions__wrapper .casino_solutions__items:nth-child(2), .casino_solutions__wrapper .casino_solutions__items:nth-child(3), .casino_solutions__wrapper .casino_solutions__items:nth-child(4){
+    margin-top: 0;
+}
+.casino_solutions__items_tablesupport {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.casino_solutions__items_table {
+    width: 100%;
+    height: 100%;
+}
+.casino_solutions__items_tablecell {
+    width: 100%;
+    height: 100%;
+}
+.casino_solutions__items_tablecell img {
+    display: block;
+    margin: 0.5rem auto 0;
+}
+.casino_solutions__items_table .casino_solutions__items_tablecell h4 {
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 0 0.8rem;
+}
+
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+
+
+@media only screen and (max-width : 680px ) {
+    .casino_solutions__wrapper .casino_solutions__items {
+        width: 33.3333%;
+    }
+    .casino_solutions__wrapper .casino_solutions__items:nth-child(4n) + .casino_solutions__items{ 
+            border-left: 1px solid #e5e5e5;
+    }
+    .casino_solutions__wrapper .casino_solutions__items:nth-child(3n) + .casino_solutions__items{
+        border-left: 0px solid #e5e5e5;
+    }
+}
+@media only screen and (max-width : 660px ) {
+}
+@media only screen and (max-width : 630px ) {
+
+}
+
+@media only screen and (max-width : 599px ) {
+}
+@media only screen and (max-width : 580px ) {
+    .casino_solutions__wrapper .casino_solutions__items {
+        width: 50%;
+    }
+    .casino_solutions__wrapper .casino_solutions__items:nth-child(3), .casino_solutions__wrapper .casino_solutions__items:nth-child(4){
+        margin-top: 3.125rem;
+    }
+    .casino_solutions__wrapper .casino_solutions__items:nth-child(2n) + .casino_solutions__items {
+        border-left: 0px solid #e5e5e5;
+    }
+    .casino_solutions__wrapper .casino_solutions__items:nth-child(3n) + .casino_solutions__items {
+        border-left: 1px solid #e5e5e5;
+    }
+
+
+}

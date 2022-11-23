@@ -1,0 +1,27 @@
+#beam_area{
+    background: #4db549;
+}
+#beam_wrapper{
+    padding: 0.8rem 0;
+    p{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 120%;
+    }
+
+    a:link, a:visited, a:active{
+        text-decoration: none !important;
+        color: #4db549;
+        display: inline-block;
+        opacity: 1;
+        background: #fff;
+        display: inline-block;
+        padding: 0.3rem 0.5rem;
+        font-weight: 600;
+    }
+    a:hover{
+        opacity: 0.8;
+    }
+}

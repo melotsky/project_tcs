@@ -1,0 +1,87 @@
+{
+    "key": "group_60c2977be3aed",
+    "title": "Banner Options",
+    "fields": [
+        {
+            "key": "field_60c297935af4b",
+            "label": "Banner Image",
+            "name": "banner_image_bo",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": 1148,
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60ec0eb19b6bf",
+            "label": "Smaller Banner Image",
+            "name": "smaller_banner_image",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 555,
+            "min_height": 200,
+            "min_size": "",
+            "max_width": 555,
+            "max_height": 200,
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_60c298075af4c",
+            "label": "Link",
+            "name": "link_bo",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "banner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1656560449
+}

@@ -1,0 +1,1408 @@
+﻿/** BRAND LIST TABLE FOR HOME PAGE START **/
+
+.banner_review__holder .brand-row, .banner_review__holder .brand-row, .banner_review__holder .brand-logo-140 > .img-hover > img, .banner_review__holder .brand-section2,
+.banner_review__holder .brand-section3, .banner_review__holder .brand-section4, .banner_review__holder .brand-section5, 
+.banner_review__holder .brand-section2 .brand-rating-stars, .banner_review__holder .brand-section3 li > img, .banner_review__holder .brand-section1, .banner_review__holder .brand-section6{ 
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+.banner_review__holder .brand-row {
+    position: relative;
+    background: 
+    #fff;
+    width: 100%;
+    padding: 1.375rem 2.3rem;
+    margin: 1rem auto 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+.banner_review__holder .brand-row:first-child{
+    margin: 0 auto;
+}
+.banner_review__holder .brand-section1 {
+    width: 140px;
+    float: left;
+    position: relative;
+}
+
+.banner_review__holder .brand-logo-140 > .img-hover img{
+    display: block;
+}
+
+
+.banner_review__holder .brand-logo-125 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.banner_review__holder .brand-logo-140 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.banner_review__holder .brand-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    background:#4db549;
+    font-size: 1.875rem;
+}
+
+
+.banner_review__holder .brand-section2 {
+    width: 184px;
+    float: left;
+    margin-left: 1rem;
+}
+
+.banner_review__holder .brand-section2 .brand-name {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.banner_review__holder .brand-section2 .brand-name h3 {
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 1.625rem;
+    line-height: 120%;
+    padding: 0 0 0.3rem 0;
+}
+
+.banner_review__holder .brand-section2 .brand-rating-stars {
+    width: 100%;
+    color: #4db549;
+    font-size: 1.8rem;
+}
+
+.banner_review__holder .brand-section2 .brand-rating-text {
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 120%;
+    opacity: 0.3;
+    padding: 0.3rem 0 0.5rem;
+}
+
+.banner_review__holder .brand-section2 .brand-launch {
+    color: rgba(255,255,255,0.9);
+    background: rgba(153, 153, 153, 0.6);
+    font-size: 0.750rem;
+    font-weight: 700;
+    padding: 0.18rem 0.8rem;
+    border-radius: 10px;
+    line-height: 120%;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.banner_review__holder .brand-section3 {
+    float: left;
+    width: 264px;
+    padding-top: 20px;
+    margin-left: 11px;
+}
+
+.banner_review__holder .brand-section3 ul {
+    padding: 0;
+}
+.banner_review__holder .brand-section3 li {
+    list-style: none;
+    width: auto;
+    float: left;
+    margin: 0 0 0 19px;
+    text-align: center;
+    padding: 0;
+}
+
+.banner_review__holder .brand-section3 li:first-child {
+    padding: 0;
+    margin: 0;
+}
+.banner_review__holder .brand-section3 li::before{display: none;}
+.banner_review__holder .brand-section3 li .feature-text {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.750rem;
+    display: block;
+    line-height: 120%;
+    font-weight: 600;
+    opacity: 0.4;
+}
+.banner_review__holder .brand-section3 li > img {
+    display: block;
+    margin: 0 auto 0.5rem;
+    width: 100%;
+}
+
+.banner_review__holder .brand-section4 {
+    float: left;
+    width: 62px;
+    margin: 0 0 0 16px;
+}
+
+.banner_review__holder .brand-section4 .solution-ico {
+    width: 62px;
+    margin: 0 0 0.750rem 0;
+    height: 37px;
+    padding: 5px 0;
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.banner_review__holder .brand-section4 .solution-ico > .sicons{
+    background-image: url(images/banner/banner-solutions-icons.png);
+    width: 62px;
+    height: 37px;
+    display: block;
+}
+
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_flower{
+    background-position: 0px 0px;
+}
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_machine{
+    background-position: -62px 0px;
+}
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_spade{
+    background-position: -124px 0px;
+}
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_dice{
+    background-position: -186px 0px;
+}
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_horse{
+    background-position: -248px 0px;
+}
+.banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_clover{
+    background-position: -310px 0px;
+}
+
+.banner_review__holder .brand-section4 .solution-ico{
+    width: 62px;
+    margin: 0 0 0.750rem 0;
+    height: 37px;
+    padding: 0;
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+.banner_review__holder .brand-section4 .solution-ico:nth-child(odd){
+    float: left;
+}
+.banner_review__holder .brand-section4 .solution-ico:nth-child(even){
+    float: right;
+    clear: right;
+}
+.banner_review__holder .brand-section4 .solution-ico .pm-logo-sprite {
+    margin: auto;
+}
+
+.banner_review__holder .brand-section5 {
+    float: left;
+    width: 130px;
+    margin: 27px 0 0 24px;
+}
+
+.banner_review__holder .brand-section5 .bonus-wrapper {
+    padding: 1rem 0 0 0;
+}
+
+.banner_review__holder .brand-section5 .brand-bonus {
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 100%;
+    padding: 0 0 0.7rem;
+    opacity: 0.8;
+}
+
+.banner_review__holder .brand-section5 .brand-free-spins {
+    font-weight: 700;
+    font-size: 0.85rem;
+    line-height: 20px;
+    color: #000;
+    opacity: 0.4;
+    line-height: 120%;
+    padding: 0 0 0.7rem;
+}
+
+.banner_review__holder .brand-section5 .brand-promocode {
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.banner_review__holder .brand-section5 .bonus-code {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner_review__holder .brand-section5 .bonus-code > span:nth-child(1){
+    font-weight: 700;
+    color: #000;
+    opacity: 0.4;
+    font-size: 0.85rem;
+    line-height: 120%;
+    display: block;
+}
+.banner_review__holder .brand-section5 .bonus-code > span:nth-child(2){
+    font-weight: 900;
+    color: #000;
+    opacity: 0.4;
+    font-size: 0.85rem;
+    line-height: 120%;
+    display: block;
+    cursor: pointer;
+}
+
+.banner_review__holder .play-btn2 {
+    width: 80%;
+    color: #ffffff;
+    background: #E00D0B;
+    border-radius: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 10px;   
+}
+
+.banner_review__holder .play-btn2.no-review {
+    margin-top: 13px;
+}
+
+.banner_review__holder .play-btn2:hover{
+  box-shadow: 0 0 5px red;
+  background-color: red;
+}
+.banner_review__holder .brand-review {
+    display: inline-block;
+    font-size: small;
+    color: #5e5e5e;
+    font-weight: bold;  
+    text-transform: uppercase;
+}
+.banner_review__holder .brand-review:hover {
+    color: #585858;
+}
+
+.pm-logo-sprite {
+    background-image: url(images/banner/payment-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.pm-logo-sprite-bitcoin {
+    width: 60px;
+    height: 30px;
+    background-position: -284px 0;
+}
+
+.pm-logo-sprite-ecopayz {
+    width: 60px;
+    height: 30px;
+    background-position: -60px 0;
+}
+
+.pm-logo-sprite-idebit {
+    width: 60px;
+    height: 30px;
+    background-position: -120px 0;
+}
+
+.pm-logo-sprite-instadebit {
+    width: 60px;
+    height: 30px;
+    background-position: -180px 0;
+}
+
+.pm-logo-sprite-interac {
+    width: 60px;
+    height: 30px;
+    background-position: -240px 0;
+}
+
+.pm-logo-sprite-maestro-card {
+    width: 60px;
+    height: 30px;
+    background-position: -170px 0;
+}
+
+.pm-logo-sprite-mastercard {
+    width: 60px;
+    height: 30px;
+    background-position: -112px 0;
+}
+
+.pm-logo-sprite-neteller {
+    width: 60px;
+    height: 30px;
+    background-position: -420px 0;
+}
+
+.pm-logo-sprite-paypal {
+    width: 60px;
+    height: 30px;
+    background-position: -56px 0;
+}
+
+.pm-logo-sprite-paysafe-card {
+    width: 60px;
+    height: 30px;
+    background-position: -227px 0;
+}
+
+.pm-logo-sprite-skrill {
+    width: 60px;
+    height: 30px;
+    background-position: -600px 0;
+}
+
+.pm-logo-sprite-trustly {
+    width: 60px;
+    height: 30px;
+    background-position: -2020px 0;
+}
+
+.pm-logo-sprite-visa {
+    width: 60px;
+    height: 30px;
+    background-position: 0px 0;
+}
+
+.brand-section5 .banner_license__logo{}
+.brand-section5 .banner_license__logo .banner_license__img {
+    display: block;
+    padding: 0.5rem 0 0 0;
+}
+.brand-section5 .banner_license__logo .banner_license__img:first-child{
+    padding: 0;
+}
+.brand-section5 .banner_license__logo .banner_license__img img{
+    display:  block;
+}
+.brand-section2 .brand-link{}
+.brand-section2 .brand-link a:link, .brand-section2 .brand-link a:visited, .brand-section2 .brand-link a:active{
+    font-size: 0.73rem;
+    line-height: 120%;
+    text-decoration: underline;
+    color: #4db549;
+    font-weight: 500;
+}
+.brand-section2 .brand-link a:hover{}
+
+
+
+.banner_review__holder .brand-section6 {
+    float: right;
+    width: 213px;
+    padding: 17px 0 0 0;
+}
+.banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active{
+    background: #4db549;
+    border: 2px solid #4db549;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 0.5rem 0;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.banner_review__holder .brand-section6 .get__started:hover{
+    border: 2px solid #4db549;
+    color: #4db549;
+    background: transparent;
+}
+
+.banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active{
+    background: transparent;
+    border: 2px solid #4db549;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    text-transform: capitalize;
+    color: #4db549;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    width: 100%; 
+    display: block;
+    text-align: center;
+}
+.banner_review__holder .brand-section6 .read__review:hover {
+    opacity: 0.8;
+    background: #4db549;
+    color: #fff;
+}
+
+
+.banner_solution__icons .bsicon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/services-sprite-icon.png);
+    margin: 0 0 0.5rem;
+}
+
+.banner_solution__icons .bsicon:nth-child(odd){
+    float: left;
+}
+.banner_solution__icons .bsicon:nth-child(even){
+    float: right;
+    clear: right;
+}
+
+/**
+Default View
+**/
+.banner_solution__icons .bsicon.bsicon_wrench{
+    background-position: 0px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_key{
+    background-position: -78px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_label{
+    background-position: -156px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_bowl{
+    background-position: -234px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_four_circles{
+    background-position: -312px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_cricle_stroke{
+    background-position: -390px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dice{
+    background-position: -468px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_spade{
+    background-position: -546px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_machine{
+    background-position: -624px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dollar{
+    background-position: -754px 0px;
+}
+
+/**
+_n View
+**/
+.banner_solution__icons .bsicon.bsicon_wrench_n{
+    background-position: -26px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_key_n{
+    background-position: -104px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_label_n{
+    background-position: -182px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_bowl_n{
+    background-position: -260px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_four_circles_n{
+    background-position: -338px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_cricle_stroke_n{
+    background-position: -416px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dice_n{
+    background-position: -494px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_spade_n{
+    background-position: -572px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_machine_n{
+    background-position: -650px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dollar_n{
+    background-position: -728px 0px;
+}
+
+/**
+_w View white icon with green background
+**/
+.banner_solution__icons .bsicon.bsicon_wrench_w{
+    background-position: 0px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_affiliation{
+    background-position: 0px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_key_w{
+    background-position: -105px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_bonus{
+    background-position: -105px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_label_w{
+    background-position: -313px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_vip{
+    background-position: -313px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_bowl_w{
+    background-position: -157px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_crm{
+    background-position: -157px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_four_circles_w{
+    background-position: -209px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_marketing{
+    background-position: -209px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_cricle_stroke_w{
+    background-position: -261px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_techhosting{
+    background-position: -261px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dice_w{
+    background-position: -520px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_spade_w{
+    background-position: -598px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_machine_w{
+    background-position: -676px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_dollar_w{
+    background-position: -53px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_bitcoin{
+    background-position: -53px 0px;
+}
+/** BRAND LIST TABLE FOR HOME PAGE END **/
+
+@media only screen and (max-width : 1199px ) {
+
+    .banner_review__holder .brand-logo-140 > .img-hover > img{
+        display: block
+    }
+    .banner_review__holder .brand-logo-140 {
+        width: auto;
+        height: auto;
+    }
+    .banner_review__holder .brand-row {
+        padding: 1.3rem 1.3rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 2%;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2%;
+    }
+    .banner_review__holder .brand-section6 {
+        float: right;
+        width: 173px;
+        padding: 17px 0 0 0;
+    }
+
+    .banner_review__holder .brand-section2 {
+        margin-left: 3%;
+    }
+
+}
+@media only screen and (max-width : 1180px ) {
+    .banner_review__holder .brand-section1 {
+        width: 13%;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 2.5%;
+        width: 17%;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.5rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1.5rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 1.5%;
+        width: 26.5%;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2.5%;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active,
+    .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active{
+        font-size: 0.9rem;
+    }
+    .banner_review__holder .brand-section6 {
+        width: 153px;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2.5%;
+    }
+}
+@media only screen and (max-width : 1160px ) {
+    .banner_review__holder .brand-section3 li {
+        margin: 0 0 0 5.5%;
+        padding: 0;
+    }
+    .banner_review__holder .brand-section3 li .feature-text {
+        font-size: 0.7rem;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 1.5%;
+    }
+    .banner_review__holder .brand-section3 {
+        width: 25.5%;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 3%;
+    }
+
+}
+
+@media only screen and (max-width : 1130px ) {
+    .banner_review__holder .brand-section4 .solution-ico {
+        margin: 0 0 0.3rem 0;
+    }
+
+}
+
+@media only screen and (max-width : 1080px ) {
+    .banner_review__holder .brand-section2 {
+        margin-left: 2%;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 1%;
+        width: 26.5%;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2%;
+    }
+    .banner_review__holder .brand-section5 {
+        float: left;
+        width: 124px;
+        margin: 27px 0 0 2%;
+    }
+
+
+}
+@media only screen and (max-width : 1060px ) {
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.3rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1.3rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section5 {
+        width: 11%;
+    }
+
+}
+@media only screen and (max-width : 1030px ) {
+    .banner_review__holder .brand-section3 {
+        margin-left: 0.8%;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2.5%;
+    }
+}
+
+@media only screen and (max-width : 1024px ) {
+    .banner_review__holder .brand-section5 .brand-bonus {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .banner_review__holder .brand-section5 {
+        float: left;
+        width: 14%;
+        margin: 27px 0 0 2.5%;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.4rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1.4rem;
+    }
+    .banner_review__holder .brand-section3 li > img {
+        margin: 0 auto 0.7rem;
+        width: 80%;
+    }
+    .banner_review__holder .brand-section2 .brand-launch {
+        font-size: 0.7rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section3 li {
+        margin: 0 0 0 3%;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 1%;
+        width: 25.5%;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 2%;
+    }
+    .banner_review__holder .brand-section6 {
+        width: 15%;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 1%;
+        width: 19%;
+    }
+    .banner_review__holder .brand-section3 li {
+        width: 31.333%;
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 1%;
+        width: 22.5%;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, 
+    .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, 
+    .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width : 999px ) {
+    .banner_review__holder .brand-section4 .solution-ico .pm-logo-sprite {
+        transform: scale(0.8);
+    }
+    .banner_review__holder .brand-section1 {
+        width: 12.7%;
+        margin: 0.5rem 0 0 0;
+    }
+    .banner_review__holder .brand-position {
+        width: 32px;
+        height: 32px;
+        line-height: 33px;
+        font-size: 1.3rem;
+    }
+    .banner_review__holder .brand-section3 li .feature-text {
+        font-size: 0.6rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 1.5%;
+        padding: 1.5rem 0 0 0;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 2%;
+        width: 20%;
+    }
+    .banner_review__holder .brand-section5 {
+        width: 15%;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 2%;
+        width: 18%;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.2rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 0.5%;
+        padding: 1.5rem 0 0 0;
+    }
+}
+@media only screen and (max-width : 980px ) {
+    .banner_review__holder .brand-section4 .solution-ico {
+        margin: 0 0 0.4rem 0;
+        width: 46%;
+        height: auto;
+        padding: 2px 0;
+    }
+    .banner_review__holder .brand-section5 .brand-bonus {
+        text-align: center;
+        font-size: 2.3rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin-left: 2%;
+    }
+    .banner_review__holder .brand-section5 .bonus-wrapper{
+        padding:0;
+    }
+    .banner_review__holder .brand-section3 li {
+        width: 31.333% !important;
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.1rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 2%;
+        width: 16%;
+    }
+
+}
+
+@media only screen and (max-width : 930px ) {
+    .banner_review__holder .brand-section5 .brand-bonus {
+        font-size: 2rem;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.2rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 0.9rem;
+    }
+    .banner_review__holder .brand-section2 .brand-launch {
+        font-weight: 600;
+        padding: 0.18rem 0.6rem;
+        font-size: 0.6rem !important;
+    }
+    .banner_review__holder .brand-position {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .banner_review__holder .brand-section4 .solution-ico {
+        margin: 0 0 0.4rem 0;
+        width: 46%;
+        height: auto;
+        padding: 0;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons {
+        width: 100%;
+        height: 36px;
+        display: block;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_horse {
+        background-position: -251px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_clover {
+        background-position: -313px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_spade {
+        background-position: -127px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_dice {
+        background-position: -189px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_flower {
+        background-position: -3px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_machine {
+        background-position: -65px 0px;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        font-size: 0.9rem;
+    }
+    .banner_review__holder .brand-section6 {
+        padding: 21px 0 0 0;
+    }
+}
+
+@media only screen and (max-width : 899px ) {
+    .banner_review__holder .brand-section3 {
+        margin-left: 1%;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1rem !important;
+    }
+
+}
+@media only screen and (max-width : 880px ) {
+    .banner_review__holder .brand-section5 .brand-free-spins {
+        font-weight: 700;
+        font-size: 0.75rem;
+    }
+    .banner_review__holder .brand-section5 .bonus-code > span:nth-child(1), .banner_review__holder .brand-section5 .bonus-code > span:nth-child(2){
+        font-size: 0.75rem;
+    }
+    .banner_review__holder .brand-section5 {
+        padding: 0.5rem 0 0 0;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+    .banner_review__holder .brand-section6 {
+        padding: 31px 0 0 0;
+    }
+
+}
+@media only screen and (max-width : 860px ) {
+    .banner_review__holder .brand-section2 {
+        margin-left: 3%;
+    }
+    .pm-logo-sprite-visa {
+        background-position: -5px 0;
+    }
+    .pm-logo-sprite-paypal {
+        background-position: -62px 0;
+    }
+    .pm-logo-sprite-mastercard {
+        background-position: -118px 0;
+    }
+    .pm-logo-sprite-maestro-card {
+        background-position: -176px 0;
+    }
+    .pm-logo-sprite-paysafe-card {
+        background-position: -234px 0;
+    }
+    .pm-logo-sprite-bitcoin {
+        background-position: -289px 0;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 2%;
+        width: 17%;
+    }
+}
+@media only screen and (max-width : 830px ) {
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .banner_review__holder .brand-section2 .brand-launch {
+        font-weight: 800;
+        padding: 0.18rem 0.5rem;
+        font-size: 0.5rem !important;
+    }
+    .banner_review__holder .brand-section1 {
+        width: 12.7%;
+        margin: 0.7rem 0 0 0;
+    }
+    .banner_review__holder .brand-row {
+        padding: 1rem;
+    }
+    .banner_review__holder .brand-section5 {
+        padding: 0.7rem 0 0 0;
+    }
+    .banner_review__holder .brand-section2 {
+        margin-left: 3%;
+        padding: 0.3rem 0 0 0;
+    }
+
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_flower {
+        background-position: -5px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_machine {
+        background-position: -67px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_spade {
+        background-position: -129px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_dice {
+        background-position: -192px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_horse {
+        background-position: -255px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_clover {
+        background-position: -316px 0px;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 0 0 1.5%;
+    }
+    .banner_review__holder .brand-section5 {
+        width: 13%;
+    }
+
+}
+
+@media only screen and (max-width : 799px ) {
+    .banner_review__holder .brand-section5 .brand-bonus {
+        font-size: 1.8rem;
+    }
+    .banner_review__holder .brand-position {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        top: 0;
+        left: 0;
+    }
+    .banner_review__holder .brand-section1 {
+        width: 140px;
+        margin: ;
+        float: unset;
+        clear: both;
+        margin: 0 auto 1.5rem;
+    }
+    .banner_review__holder .brand-position {
+        top: 11px;
+    }
+    .banner_review__holder .brand-section2 {
+        float: unset;
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.5rem !important;
+        text-align: center;
+        padding: 0 0 0.7rem;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .brand-section2 .brand-link {
+        text-align: center;
+        padding: 0 0 1rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        width: 212px;
+        padding: 1rem 0 0;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 auto;
+        width: 100%;
+        float: none;
+        clear: both;
+        text-align: center;
+        padding: 1.5rem 0 0 0;
+    }
+    .banner_solution__icons .bsicon {
+        margin: 0 0.3rem 0.3rem;
+        float: unset !important;
+    }
+    .brand-section5 .banner_license__logo .banner_license__img {
+        display: inline-block;
+        padding: 0.3rem !important;
+    }
+    .brand-section5 .banner_license__logo {
+        text-align: center;
+    }
+    .banner_review__holder .brand-section5 {
+        width: 100%;
+        padding: 1rem 0 0 0;
+        margin: 0 auto;
+        float: unset;
+        clear: both;
+    }
+    .banner_review__holder .brand-section6 {
+        padding: 1rem 0 0 0;
+        float: unset;
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: auto;
+        display: inline-block;
+        margin: 0.5rem;
+    }
+
+    .banner_review__holder {
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-justify-content: space-between;
+        justify-content: space-around;
+    }
+    .banner_review__holder .brand-row {
+        padding: 1rem;
+        width: 46.5%;
+        margin: 1.5rem 0 0 0;
+        border-radius: 13px;
+    }
+    .banner_review__holder .brand-section3 li {
+        width: auto !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .banner_review__holder .brand-row {
+        align-self: stretch;
+    }
+    .banner_review__holder .brand-row:nth-child(1){
+        margin: 0;
+    }
+    .banner_review__holder .brand-row:nth-child(2){
+        margin: 0;
+    }
+}
+@media only screen and (max-width : 780px ) {
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 0.7rem;
+    }
+    .banner_review__holder .brand-section5 .brand-bonus {
+        font-size: 1.5rem;
+    }
+    .banner_review__holder .brand-section5 .brand-free-spins {
+        font-size: 0.7rem;
+    }
+    .banner_review__holder .brand-section5 {
+        padding: 0.9rem 0 0 0;
+    }
+    .banner_review__holder .brand-section4 .solution-ico .pm-logo-sprite {
+        transform: scale(0.8);
+        width: 47px;
+        height: 27px;
+        background-size: cover !important;
+    }
+    .pm-logo-sprite-visa {
+        background-position: -3px 0;
+    }
+    .pm-logo-sprite-paypal {
+        background-position: -55px 0;
+    }
+    .pm-logo-sprite-mastercard {
+        background-position: -105px 0;
+    }
+    .pm-logo-sprite-maestro-card {
+        background-position: -157px 0;
+    }
+    .pm-logo-sprite-paysafe-card {
+        background-position: -209px 0;
+    }
+    .pm-logo-sprite-bitcoin {
+        background-position: -260px 0;
+    }
+}
+@media only screen and (max-width : 760px ) {
+    .banner_review__holder .brand-section3 li {
+        margin: 0 0 0 2%;
+        width: 31.3333%;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_flower {
+        background-position: -7px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_machine {
+        background-position: -68px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_spade {
+        background-position: -131px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_dice {
+        background-position: -195px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_horse {
+        background-position: -256px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_clover {
+        background-position: -317px 0px;
+    }
+    .banner_solution__icons {
+        font-size: 0;
+    }
+
+}
+@media only screen and (max-width : 730px ) {
+    .banner_review__holder .brand-section5 {
+        padding: 0.2rem 0 0 0;
+    }
+    .banner_review__holder .brand-position {
+        top: -4px;
+        left: -4px;
+    }
+
+    .banner_review__holder .brand-section1 {
+        width: 140px;
+        margin: 0 auto 1.5rem;
+        display: block;
+        float: none;
+    }
+    .banner_review__holder .brand-position {
+        top: 5px;
+        left: 4px;
+    }
+    .banner_review__holder .brand-section2 {
+        margin: 0 auto 1rem;
+        padding: 0;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    .banner_review__holder .brand-section2 .brand-name {
+        width: 100%;
+        margin-top: 0;
+    }
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-stars {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .banner_review__holder .brand-section2 .brand-rating-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .brand-section2 .brand-link {
+        text-align: center;
+    }
+    .brand-section2 .brand-link a:link, .brand-section2 .brand-link a:visited, .brand-section2 .brand-link a:active {
+        font-size: 1rem;
+    }
+    .banner_review__holder .brand-section3 {
+        margin: 0 auto 1.5rem;
+        width: 100%;
+        padding: 0;
+    }
+    .banner_review__holder .brand-section3 ul {
+        padding: 0;
+        text-align: center;
+    }
+    .banner_review__holder .brand-section3 li {
+        margin: 0;
+        width: auto;
+        display: inline-block;
+        float: unset;
+    }
+    .banner_review__holder .brand-section4 {
+        margin: 0 auto 1.5rem;
+        width: 100%;
+        text-align: center;
+        float: unset;
+    }
+    .banner_review__holder .brand-section4 .solution-ico {
+        margin: 0 0.3rem 0.3rem;
+        width: 62px;
+        height: 37px;
+        padding: 0;
+        float: unset !important;
+        display: inline-block;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_flower {
+        background-position: 0px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_machine {
+        background-position: -62px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_spade {
+        background-position: -124px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_dice {
+        background-position: -186px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_horse {
+        background-position: -248px 0px;
+    }
+    .banner_review__holder .brand-section4 .solution-ico > .sicons.sicons_clover {
+        background-position: -310px 0px;
+    }
+    .banner_review__holder .brand-section5 {
+        padding: 0;
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .brand-section5 .banner_license__logo{
+        text-align: center;
+    }
+    .brand-section5 .banner_license__logo .banner_license__img {
+        display: inline-block;
+        padding: 1rem 0 0 0;
+        max-width: 150px;
+        margin: 0 0.5rem;
+    }
+    .banner_review__holder .brand-row {
+        padding: 1.5rem;
+    }
+
+    .banner_review__holder .brand-row{
+        width: 47%;
+    }
+
+    .banner_review__holder .brand-row:last-child{
+        /* margin: 0 auto; */
+    }
+
+
+
+}
+@media only screen and (max-width : 630px ) {
+    .banner_review__holder{
+        flex-direction: column;
+    }
+    .banner_review__holder .brand-row:nth-child(2) {
+        margin: 1rem 0 0 0;
+    }
+    .banner_review__holder .brand-row {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width : 499px ) {
+    .banner_review__holder .brand-row {
+        padding: 1rem;
+    }
+    .banner_review__holder {
+        flex-direction: column;
+    }
+    .banner_review__holder .brand-row {
+        padding: 1rem;
+        width: 100% !important;
+        margin: 1.5rem 0 0 0 !important;
+    }
+    .banner_review__holder .brand-row:nth-child(1){
+        margin: 0 !important;
+    }
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        padding: 0.5rem;
+        margin: 0.5rem 0.2rem;
+    }
+}
+@media only screen and (max-width : 430px ) {
+    .banner_review__holder .brand-section2 .brand-name h3 {
+        font-size: 1.1rem !important;
+    }
+
+}
+
+@media only screen and (max-width : 380px ) {
+    .banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active, .banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+        margin: 0 auto 0.3rem;
+        display: table;
+        width: auto;
+    }
+}

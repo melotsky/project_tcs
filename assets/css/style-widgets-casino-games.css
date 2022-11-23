@@ -1,0 +1,82 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+
+
+.casino_gameslogo__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item {
+    width: 25%;
+    padding: 1.9rem 2%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.casino_gameslogo__wrapper .casino_gameslogo__item:last-child{
+    border-right: 1px solid #e5e5e5;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4n){
+    border-right: 1px solid #e5e5e5;
+}
+
+.casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(1), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(2), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(3), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4){
+    border-top: 1px solid #e5e5e5;
+}
+.casino_gameslogo__item_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.casino_gameslogo__item_tablecell {
+    width: 100%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item img{
+    display: block;
+    margin:0 auto;
+}
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+@media only screen and (max-width : 699px ) {
+    .casino_gameslogo__wrapper .casino_gameslogo__item {
+        padding: 1.9rem 1rem;
+    }
+
+}
+@media only screen and (max-width : 680px ) {
+    .casino_gameslogo__wrapper .casino_gameslogo__item {
+        width: 33.3333%;
+    }
+    .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4n) {
+        border-right: 0px solid #e5e5e5;
+    }
+    .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(3n) {
+        border-right: 1px solid #e5e5e5;
+    }
+
+    .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4) {
+        border-top: 0px solid #e5e5e5;
+    }
+
+}
+@media only screen and (max-width : 580px ) {
+    .casino_gameslogo__wrapper .casino_gameslogo__item {
+        padding: 1.9rem 2rem;
+        width: 50%;
+    }
+    .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(3n) {
+        border-right: 0px solid  #e5e5e5;
+    }
+    .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(2n) {
+        border-right: 1px solid  #e5e5e5;
+    }
+
+
+}

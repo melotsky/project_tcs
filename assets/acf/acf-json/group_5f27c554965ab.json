@@ -1,0 +1,50 @@
+{
+    "key": "group_5f27c554965ab",
+    "title": "Review - Contact Form Bottom",
+    "fields": [
+        {
+            "key": "field_5f27c5d13ef1a",
+            "label": "Review Contact Form",
+            "name": "review_contact_form",
+            "type": "wysiwyg",
+            "instructions": "This content will appear after the reivew element box",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/temp-review.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/temp-provider.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1635418583
+}

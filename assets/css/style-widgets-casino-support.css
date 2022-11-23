@@ -1,0 +1,256 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+.casino_support__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 2rem auto 3rem;
+}
+
+.casino_support__wrapper .casino_support__items {
+    width: 25%;
+    padding: 0 4%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    margin-top: 3.125rem;
+}
+
+.casino_support__wrapper .casino_support__items:nth-child(4n){}
+.casino_support__wrapper .casino_support__items:nth-child(4n) + .casino_support__items, .casino_support__wrapper .casino_support__items:nth-child(1){
+    border-left: 0 none;
+}
+
+.casino_support__wrapper .casino_support__items:nth-child(1), .casino_support__wrapper .casino_support__items:nth-child(2), .casino_support__wrapper .casino_support__items:nth-child(3), .casino_support__wrapper .casino_support__items:nth-child(4){
+    margin-top: 0;
+}
+.casino_support__items_tablesupport {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.casino_support__items_table {
+    width: 100%;
+    height: 100%;
+}
+.casino_supports__items_tablecell {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.casino_supports__items_tablecell img {
+    display: block;
+    margin: 0.5rem auto 0;
+}
+.casino_support__items_table .casino_supports__items_tablecell h4 {
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center; 
+    padding: 0 0 0.8rem;
+}
+
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+
+/************************************************/
+/* MEDIA QUERIES                                */
+/************************************************/
+
+
+@media only screen and (min-width : 1920px) and (max-width : 1900px) {}
+
+@media only screen and (max-width : 1899px ) {
+}
+@media only screen and (max-width : 1880px ) {
+}
+@media only screen and (max-width : 1860px ) {}
+@media only screen and (max-width : 1830px ) {
+}
+
+@media only screen and (max-width : 1799px ) {}
+@media only screen and (max-width : 1780px ) {
+}
+@media only screen and (max-width : 1760px ) {}
+@media only screen and (max-width : 1730px ) {
+}
+
+@media only screen and (max-width : 1699px ) {
+}
+@media only screen and (max-width : 1680px ) {
+}
+@media only screen and (max-width : 1660px ) {
+}
+@media only screen and (max-width : 1630px ) {
+}
+
+@media only screen and (max-width : 1599px ) {
+}
+@media only screen and (max-width : 1580px ) {
+}
+@media only screen and (max-width : 1560px ) {
+}
+@media only screen and (max-width : 1530px ) {
+}
+
+@media only screen and (max-width : 1499px ) {
+}
+@media only screen and (max-width : 1480px ) {
+}
+@media only screen and (max-width : 1460px ) {
+}
+@media only screen and (max-width : 1440px ) {
+}
+@media only screen and (max-width : 1430px ) {
+}
+
+@media only screen and (max-width : 1399px ) {
+}
+@media only screen and (max-width : 1380px ) {
+}
+@media only screen and (max-width : 1360px ) {
+}
+@media only screen and (max-width : 1330px ) {
+}
+
+@media only screen and (max-width : 1299px ) {
+}
+@media only screen and (max-width : 1280px ) {
+}
+@media only screen and (max-width : 1260px ) {
+}
+@media only screen and (max-width : 1230px ) {
+}
+
+@media only screen and (max-width : 1199px ) {
+
+}
+@media only screen and (max-width : 1180px ) {
+}
+@media only screen and (max-width : 1160px ) {
+
+}
+
+@media only screen and (max-width : 1130px ) {
+
+}
+
+@media only screen and (max-width : 1099px ) {
+
+}
+@media only screen and (max-width : 1080px ) {
+}
+@media only screen and (max-width : 1060px ) {
+
+}
+@media only screen and (max-width : 1030px ) {
+
+}
+
+@media only screen and (max-width : 1024px ) {
+
+}
+
+@media only screen and (max-width : 999px ) {
+
+}
+@media only screen and (max-width : 980px ) {
+
+}
+@media only screen and (max-width : 960px ) {
+
+}
+@media only screen and (max-width : 930px ) {
+
+}
+
+@media only screen and (max-width : 899px ) {
+
+}
+@media only screen and (max-width : 880px ) {
+
+}
+@media only screen and (max-width : 860px ) {
+
+}
+@media only screen and (max-width : 830px ) {
+
+}
+
+@media only screen and (max-width : 799px ) {
+
+}
+@media only screen and (max-width : 780px ) {
+
+}
+@media only screen and (max-width : 760px ) {
+    
+}
+@media only screen and (max-width : 730px ) {
+
+}
+@media only screen and (max-width : 699px ) {
+
+}
+@media only screen and (max-width : 680px ) {
+    .casino_support__wrapper .casino_support__items {
+        width: 33.3333%;
+    }
+    .casino_support__wrapper .casino_support__items:nth-child(4n) + .casino_support__items{
+        border-left: 1px solid #e5e5e5;
+    }
+    .casino_support__wrapper .casino_support__items:nth-child(3n) + .casino_support__items{
+        border-left: 0 none;
+    }
+    .casino_support__wrapper .casino_support__items:nth-child(4){
+        margin-top: 3.125rem;
+    }
+}
+@media only screen and (max-width : 660px ) {
+}
+@media only screen and (max-width : 630px ) {
+
+}
+
+@media only screen and (max-width : 599px ) {
+}
+@media only screen and (max-width : 580px ) {
+
+    .casino_support__wrapper .casino_support__items{width: 50%;}
+    .casino_support__wrapper .casino_support__items:nth-child(3){
+        margin-top: 3.125rem;
+    }
+    .casino_support__wrapper .casino_support__items:nth-child(2n) + .casino_support__items{
+        border-left: 0 none;
+    }
+    .casino_support__wrapper .casino_support__items:nth-child(3n) + .casino_support__items{
+        border-left: 1px solid #e5e5e5;
+    }
+}
+@media only screen and (max-width : 560px ) {
+
+}
+@media only screen and (max-width : 530px ) {
+}
+ 
+@media only screen and (max-width : 499px ) {
+}
+@media only screen and (max-width : 480px ) {
+}
+@media only screen and (max-width : 460px ) {
+}
+@media only screen and (max-width : 430px ) {
+
+}
+
+@media only screen and (max-width : 399px ) {
+
+}
+@media only screen and (max-width : 380px ) {
+}
+@media only screen and (max-width : 360px ) {
+}
+@media only screen and (max-width : 330px ) {}
+
+@media only screen and (max-width : 320px ) {
+}
+

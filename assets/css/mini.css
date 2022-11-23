@@ -1,0 +1,695 @@
+/************************************************/
+/* HIDE SOME ELEMENTS IN ADMIN AREA             
+/************************************************/
+
+/*
+body.themes-php .theme.active .customize, body.themes-php .theme-overlay.active .active-theme .customize, #tab-link-customize-preview-themes{display:none !important;}
+
+#adminmenuwrap #adminmenu .wp-submenu.wp-submenu-wrap li > a[href="admin.php?page=acf-options-general-settings"]{display:none}
+
+*/
+
+body .wp-block {
+    max-width: 100% !important;
+}
+
+.review__sol > .wp-block-group__inner-container > .block-editor-inner-blocks > .block-editor-block-list__layout{
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	align-items: flex-start;	
+}
+.review__sol > .wp-block-group__inner-container > .block-editor-inner-blocks > .block-editor-block-list__layout > div{
+    width: calc(33.3333% - (.66666666666667*30px));
+}
+
+
+#top_review_hp.software_archive{
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	align-items: flex-start;	
+}
+#top_review_hp.software_archive > div{
+    width: calc(33.3333% - (.66666666666667*30px));
+}
+
+.fywfss {
+    background: #2f2f2f;
+    border-radius: 9px;
+    padding: 3rem 4rem 4rem 6rem;
+    background-image: url(images/featured-platform-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    overflow: hidden;
+    position: relative;
+}
+.fywfss > p {
+    background: #4db549;
+    position: absolute;
+    left: -54px;
+    top: 51px;
+    padding: .3rem 4rem !important;
+    transform: rotate(310deg) scaleX(1);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba(255,255,255,.8) !important;
+}
+.fywfss__header_link {
+    padding: 0 0 2rem;
+}
+.fywfss__header_link .otp__logo {
+    float: left;
+    width: 242px;
+    height: 60px;
+}
+.fywfss___brandname {
+    padding: 0;
+    float: left;
+    margin: 0 0 0 2.5rem;
+    height: 60px;
+}
+
+.fywfss___brandname .fywfss___brandname_table {
+    padding: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.fywfss___brandname .fywfss___brandname_tablecell {
+    padding: 0;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.fywfss___brandname h3 {
+    padding: 0 !important;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 !important;
+}
+.fywfss___brandname p {
+    padding: 0 !important;
+    font-size: .9rem;
+    font-weight: 500;
+    margin: 0 !important;
+}
+.group::after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+.fywfss__icons {
+    padding: 0;
+    float: left;
+    width: 48%;
+}
+.fywfss__licbta {
+    float: left;
+    width: 51%;
+}
+.fywfss__icons .fywfss__stars {
+    padding: 0 0 1.5rem;
+}
+.fywfss__icons .fpc__stars {
+    padding: 0;
+}
+.fywfss__icons .fpc__stars .fptitle__h4 {
+    float: left;
+    width: 35%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 !important;
+}
+.fywfss__icons .fpc__stars .fpright {
+    padding: 0;
+    float: left;
+    color: #4db549;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+.fywfss__icons .fpc__stars .fpright {
+    color: #4db549;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+.fywfss__icons .fywfss__casinosolutions {
+    padding: 0 0 1rem;
+}
+.fywfss__icons .fywfss__casinosolutions .fpc__solutions {
+    padding: 0;
+}
+.fywfss__icons .fywfss__casinosolutions .fptitle__h4 {
+    float: left;
+    width: 35%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 !important;
+}
+.fywfss__icons .fywfss__casinosolutions .fpright {
+    padding: 0;
+    float: left;
+    line-height: 120%;
+    width: 64%;
+}
+.fywfss__icons .fywfss__gamingproducts {
+    padding: 0;
+}
+.fywfss__icons .fywfss__gamingproducts .fpc__products {
+    padding: 0;
+}
+.fywfss__icons .fywfss__gamingproducts .fptitle__h4 {
+    float: left;
+    width: 35%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 !important;
+}
+.fywfss__icons .fywfss__gamingproducts .fpright {
+    padding: 0;
+    float: left;
+    line-height: 120%;
+    width: 64%;
+}
+.fywfss__licenses {
+    padding: 0;
+    float: left;
+    width: 43%;
+}
+.fywfss__cta {
+    float: left;
+    width: 52%;
+    margin: 0 0 0 3%;
+}
+.fywfss__licenses .fywfss__licenses_table {
+    padding: 0;
+}
+.fywfss__licenses .fywfss__licenses_tablecell {
+    padding: 0;
+}
+.fywfss__licenses span:first-child {
+    display: block;
+    margin: 1rem auto 0;
+}
+.fywfss__licenses span {
+    display: block;
+    margin: 1rem auto 0;
+}
+.fywfss__cta .fp_licenses_btns {
+    padding: 0;
+}
+.fywfss__cta .fp_licenses_btns a:link:first-child, 
+.fywfss__cta .fp_licenses_btns a:visited:first-child, 
+.fywfss__cta .fp_licenses_btns a:active:first-child {
+    margin: 0 auto 2rem;
+}
+.fywfss__cta .fp_licenses_btns a:link,
+ .fywfss__cta .fp_licenses_btns a:visited,
+  .fywfss__cta .fp_licenses_btns a:active {
+    width: 100%;
+    text-align: center;
+}
+
+.row__type{}
+
+.casino_gameslogo__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item {
+    width: 25%;
+    padding: 1.9rem 2%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.casino_gameslogo__wrapper .casino_gameslogo__item:last-child{
+    border-right: 1px solid #e5e5e5;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4n){
+    border-right: 1px solid #e5e5e5;
+}
+
+.casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(1), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(2), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(3), .casino_gameslogo__wrapper .casino_gameslogo__item:nth-child(4){
+    border-top: 1px solid #e5e5e5;
+}
+.casino_gameslogo__item_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.casino_gameslogo__item_tablecell {
+    width: 100%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.casino_gameslogo__wrapper .casino_gameslogo__item img{
+    display: block;
+    margin:0 auto;
+}
+
+.casino_brandslogo__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+.casino_brandslogo__wrapper .casino_brandslogo__item {
+    width: 25%;
+    padding: 1.9rem 2%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.casino_brandslogo__wrapper .casino_brandslogo__item:last-child{
+    border-right: 1px solid #e5e5e5;
+}
+.casino_brandslogo__wrapper .casino_brandslogo__item:nth-child(4n){
+    border-right: 1px solid #e5e5e5;
+}
+
+.casino_brandslogo__wrapper .casino_brandslogo__item:last-child{
+    border-right: 1px solid #e5e5e5 !important;
+}
+
+.casino_brandslogo__wrapper .casino_brandslogo__item:nth-child(1), .casino_brandslogo__wrapper .casino_brandslogo__item:nth-child(2), .casino_brandslogo__wrapper .casino_brandslogo__item:nth-child(3), .casino_brandslogo__wrapper .casino_brandslogo__item:nth-child(4){
+    border-top: 1px solid #e5e5e5;
+}
+
+.casino_brandslogo__item_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.casino_brandslogo__item_tablecell {
+    width: 100%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.casino_brandslogo__wrapper .casino_brandslogo__item img{
+    display: block;
+    margin:0 auto;
+}
+
+.featured_platform__wrapper{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 2rem;
+}
+
+.featured_platform__wrapper .fp__featured {
+    position: absolute;
+    color: #fff;
+    top: 2.5rem;
+    left: -5.5rem;
+    z-index: 1;
+    padding: 0.2rem 5rem;
+    background: #4db549;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    transform: rotate(312deg);
+    -webkit-transform: rotate(312deg);
+    -moz-transform: rotate(312deg);
+    -ms-transform: rotate(312deg);
+    -o-transform: rotate(312deg);
+}
+.featured_platform__wrapper #featured__platform_box {
+    padding: 3rem 3.5rem 2rem 3.5rem;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+    background-color: #2f2f2f !important;
+    position: relative !important;
+}
+.img_overlay {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    mix-blend-mode: lighten;
+    object-fit: contain;
+    object-position: bottom;
+    display: block;
+}
+#featured__platform_logourl {
+    position: sticky;
+}
+#software__info {
+    margin: 0 0 2.375rem 0;
+}
+#software__info .software__info__logo {
+    float: left;
+    margin: 0 3% 0 0;
+}
+#featured__platform_box #fpc__block .featured_platform_content__info {
+    padding: 0;
+    float: left;
+    width: 45.5%;
+}
+#featured__platform_box #fpc__block .fpl__wrapper {
+    padding: 0;
+    float: left;
+    width: 16%;
+    margin: 0 2% 0 4.5%;
+    position: relative;
+    top: -4rem;
+}
+#featured__platform_box #fpc__block .fp_licenses_btns {
+    padding: 0;
+    float: right;
+    width: 23%;
+}
+.fp_licenses_btns .get__started:link, .fp_licenses_btns .get__started:visited, .fp_licenses_btns .get__started:active {
+    display: inline-block;
+    margin: 0 1rem 0 0;
+    background: #4db549;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 4rem;
+    border-radius: 0;
+    border: 2px solid #4db549;
+}
+#featured__platform_box #fpc__block .fp_licenses_btns .get__started {
+    text-decoration: none;
+    margin: 0 auto 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0;
+}
+#featured__platform_box #fpc__block .fp_licenses_btns .read__review {
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+}
+#featured__platform_box #fpc__block .fpl__wrapper .fpl__img img {
+    display: block;
+    margin: 0 auto;
+}
+#featured__platform_box #fpc__block .fpl__wrapper .fpl__img {
+    padding: 1rem 0 0 0;
+}
+#featured__platform_box #fpc__block .fpl__wrapper .fpl__img:nth-child(1) {
+    padding: 0;
+}
+.featured_platform_content__info .featured_platform_content__icont:first-child {
+    padding: 0;
+}
+.featured_platform_content__info .featured_platform_content__icont .fptitle__h4 {
+    float: left;
+    width: 40.7%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 1rem 0 0;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+#featured__platform_box #fpc__block .featured_platform_content__info .fptitle__h4 {
+    float: left;
+    font-size: 1.1rem;
+    position: relative;
+    top: 5px;
+    width: 35%;
+}
+.featured_platform_content__info .featured_platform_content__icont .featured_platform_content__stars {
+    color: #4db549;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+#featured__platform_box #fpc__block .featured_platform_content__info .fpright {
+    float: left;
+    width: 65%;
+}
+
+.operator-top-platform {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.otp__item {
+    width: calc(33.3333% - (.66666666666667*2.2rem));
+    background: #fff;
+    overflow: hidden;
+    border-radius: 13px;
+    align-self: stretch;
+}
+.otp__item {
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+}
+
+.casino_licenseslogo__wrapper {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+
+.casino_licenseslogo__wrapper .casino_licenseslogo__item {
+    width: 50%;
+    padding: 1.9rem 4%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e5e5;
+}
+.casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(1), .casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(2) {
+    border-top: 1px solid #e5e5e5;
+}
+
+.casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(2n) {
+    border-right: 1px solid #e5e5e5;
+}
+.casino_licenseslogo__wrapper .casino_licenseslogo__item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner_review__holder .brand-row {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    padding: 1.375rem 2.3rem;
+    margin: 1rem auto 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+.banner_review__holder .brand-row:first-child {
+    margin: 0 auto;
+}
+.banner_review__holder .brand-section1 {
+    width: 140px;
+    float: left;
+    position: relative;
+}
+.banner_review__holder .brand-logo-140 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.banner_review__holder .brand-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    background: #4db549;
+    font-size: 1.875rem;
+}
+.banner_review__holder .brand-section2 {
+    width: 184px;
+    float: left;
+    margin-left: 1rem;
+}
+.banner_review__holder .brand-section2 .brand-name {
+    width: 100%;
+    margin-top: 7px;
+}
+.banner_review__holder .brand-section2 .brand-name h3 {
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 1.625rem;
+    line-height: 120%;
+    padding: 0 0 0.3rem 0;
+}
+.banner_review__holder .brand-section2 .brand-rating-stars {
+    width: 100%;
+    color: #4db549;
+    font-size: 1.8rem;
+}
+.banner_review__holder .brand-section3 {
+    float: left;
+    width: 264px;
+    padding-top: 20px;
+    margin-left: 11px;
+}
+.banner_review__holder .brand-section3 ul {
+    padding: 0;
+}
+.banner_review__holder .brand-section3 li {
+    list-style: none;
+    width: auto;
+    float: left;
+    margin: 0 0 0 19px;
+    text-align: center;
+    padding: 0;
+}
+.banner_review__holder .brand-section3 li:first-child {
+    padding: 0;
+    margin: 0;
+}
+.banner_review__holder .brand-section3 li > img {
+    display: block;
+    margin: 0 auto 0.5rem;
+    width: 100%;
+}
+.banner_review__holder .brand-section3 li .feature-text {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.750rem;
+    display: block;
+    line-height: 120%;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+.banner_review__holder .brand-section4 {
+    float: left;
+    width: 62px;
+    margin: 0 0 0 16px;
+}
+.banner_solution__icons .bsicon.bsicon_affiliation {
+    background-position: 0px 0px;
+}
+.banner_solution__icons .bsicon:nth-child(2n+1) {
+    float: left;
+}
+.banner_solution__icons .bsicon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/services-sprite-icon.png);
+    margin: 0 0 0.5rem;
+}
+.tooltip {
+    position: relative;
+}
+.banner_solution__icons .bsicon:nth-child(2n) {
+    float: right;
+    clear: right;
+}
+.banner_solution__icons .bsicon.bsicon_bonus {
+    background-position: -105px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_vip {
+    background-position: -313px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_crm {
+    background-position: -157px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_marketing {
+    background-position: -209px 0px;
+}
+.banner_solution__icons .bsicon.bsicon_techhosting {
+    background-position: -261px 0px;
+}
+.banner_review__holder .brand-section5 {
+    float: left;
+    width: 130px;
+    margin: 27px 0 0 24px;
+}
+.banner_review__holder .brand-section6 {
+    float: right;
+    width: 213px;
+    padding: 17px 0 0 0;
+}
+.banner_review__holder .brand-section6 .get__started:link, .banner_review__holder .brand-section6 .get__started:visited, .banner_review__holder .brand-section6 .get__started:active {
+    background: #4db549;
+    border: 2px solid #4db549;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 0.5rem 0;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.banner_review__holder .brand-section6 .read__review:link, .banner_review__holder .brand-section6 .read__review:visited, .banner_review__holder .brand-section6 .read__review:active {
+    background: transparent;
+    border: 2px solid #4db549;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    text-transform: capitalize;
+    color: #4db549;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

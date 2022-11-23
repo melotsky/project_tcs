@@ -1,0 +1,246 @@
+
+
+.ft-yii-widget-featured-summary-platform{
+    padding: 2rem 0;
+}
+
+    
+    
+#content .fywfss{
+    background: #2f2f2f;
+    border-radius: 0;
+    padding: 3rem 4rem 2rem 6rem;
+    background-image: url(images/webp/featured-platform-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    overflow: hidden;    
+    position: relative;
+
+    .services_icons.featuredplayforms .s_icon {
+        margin: 0 .5rem .5rem 0;
+    }
+    .featured_platform_content__products .fppicon {
+        margin: 0 .5rem .5rem 0;
+    }    
+
+    > p{
+        background: #4db549;
+        position: absolute;
+        left: -54px;
+        top: 51px;
+        padding: .3rem 4rem !important;
+        transform: rotate(310deg) scaleX(1);
+        text-transform: uppercase;
+        font-weight: 500;
+        color: rgba(255,255,255,.8) !important;       
+    }
+}
+
+.fywfss__header_link{
+    padding: 0 0 2rem;
+
+    .otp__logo{
+        float: left;
+        width: 242px;
+        height: 60px;
+    }
+}
+
+#content .fywfss___brandname{
+    padding: 0;
+    float: left;
+    margin: 0 0 0 2.5rem;
+    height: 60px;
+    
+    
+    .fywfss___brandname_table{
+        padding: 0;
+        display: table;
+        height: 100%;
+        width: 100%;
+    }
+    .fywfss___brandname_tablecell{
+        padding: 0;
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    h3{
+        padding: 0 !important;
+        color: #fff !important;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    p{
+        padding: 0 !important;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+        a:link, a:visited, a:active{
+            padding: 0;
+            color: #4db549;
+            text-decoration: underline;
+        }
+        a:hover{
+
+        }
+    }
+    
+}
+
+
+#content .fywfss__icons{
+    padding: 0;
+    float: left;
+    width: 48%;
+
+    // STARS START
+
+    .fywfss__stars{
+        padding: 0 0 1.5rem;
+    }
+
+    .fpc__stars{
+        padding: 0;
+
+        .fptitle__h4{
+            float: left;
+            width: 35%;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 0 1rem 0 0;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        .fpright{
+            padding: 0;
+            float: left;
+            color: #4db549;
+            font-size: 1.5rem;
+            line-height: 120%;
+        }
+
+        .brand-rating-stars{
+            padding: 0;
+        }
+    }
+
+    //STARS END
+
+
+    //CASINO SOLUTIONS START
+    .fywfss__casinosolutions{
+        padding: 0 0 1rem;
+
+        .fpc__solutions{
+            padding: 0;
+        }
+
+        .fptitle__h4{
+            float: left;
+            width: 35%;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 0 1rem 0 0;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #fff;
+        }
+        .fpright{
+            padding: 0;
+            float: left;
+            line-height: 120%;
+            width: 64%;
+        }
+
+    }
+    //CASINO SOLUTIONS END
+
+    //GAMING PRODUCTS START
+    .fywfss__gamingproducts{
+        padding: 0;
+
+        .fpc__products{
+            padding: 0;
+        }
+        .fptitle__h4{
+            float: left;
+            width: 35%;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 0 1rem 0 0;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #fff;
+        }
+        .fpright{
+            padding: 0;
+            float: left;
+            line-height: 120%;
+            width: 64%;
+        }        
+    }
+
+
+    //GAMING PRODUCTS START
+
+}
+
+
+#content .fywfss__licenses{
+    padding: 0;
+    float: left;
+    width: 43%;
+
+    .fywfss__licenses_table{
+        padding: 0;
+    }
+    .fywfss__licenses_tablecell{
+        padding: 0;
+    }
+    span{
+        display: block;
+        margin: 1rem auto 0;
+    }
+    span:first-child{
+        display: block;
+        margin: 0 auto 0;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        height: 41px;
+    }
+}
+
+
+#content .fywfss__cta{
+    float: left;
+    width: 52%;
+    margin: 0 0 0 3%;
+
+    .fp_licenses_btns{
+        padding: 0;
+
+        a:link:first-child, a:visited:first-child, a:active:first-child{
+            margin: 0 auto 2rem;
+        }
+        a:link, a:visited, a:active{
+            width: 100%;
+            padding: 0.8rem 0;
+            text-align: center;
+        }
+        a:hover{}
+    }
+}
+
+#content .fywfss__licbta{
+    float: left;
+    width: 51%;
+}
+
+@import "responsive";

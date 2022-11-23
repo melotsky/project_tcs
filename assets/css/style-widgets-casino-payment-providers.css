@@ -1,0 +1,73 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+
+.casino_paymentprovider__wrapper{
+    padding: 0 0 0.5rem;
+}
+
+.casino_paymentprovider__wrapper .cpp_payment-logo{
+    border: 1px solid #e1e1e1;
+    float: left;
+    width: 98px;
+    height: 60px;
+    margin: 0 1rem 1rem 0;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.casino_paymentprovider__wrapper .cpp_payment-logo > a:link, .casino_paymentprovider__wrapper .cpp_payment-logo > a:visited, .casino_paymentprovider__wrapper .cpp_payment-logo > a:active{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo > a:hover{}
+
+
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite{
+    display: block;
+    background-image: url(images/casino-payment-providers/payment-sprite.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-bitcoin{
+    background-position: 0 0;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-mastercard{
+    background-position: -191px 0px;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-maestro-card{
+    background-position: -96px 0px;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-paypal{
+    background-position: -284px 0px;
+}
+.casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-skrill{
+    background-position: -379px 0px;
+}
+
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+
+@media only screen and (max-width : 899px ) {
+    .casino_paymentprovider__wrapper .cpp_payment-logo {
+        width: 88px;
+        height: 50px;
+    }
+    .casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-bitcoin {
+        background-position: 2px 0;
+    }
+    .casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-maestro-card {
+        background-position: -74px 0px;
+    }
+    .casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-mastercard {
+        background-position: -153px 0px;
+    }
+    .casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-paypal {
+        background-position: -230px 0px;
+    }
+    .casino_paymentprovider__wrapper .cpp_payment-logo .pp-logo-sprite-skrill {
+        background-position: -309px 0px;
+    }
+
+}

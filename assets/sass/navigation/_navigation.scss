@@ -1,0 +1,399 @@
+/* nav css */
+/*First =============================================================================================*/
+nav {
+	float: left;
+	clear: left;
+}
+nav ul.sf-menu {
+	padding: 0;
+	margin: 0; /* reset list style */
+	// background: #CCC; /* give your menu a bg colour, if necessary */
+	// width: 940px; /* same as header width */
+}
+/*Second ============================================================================================= */
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu {
+	line-height: 1.0;
+}
+.sf-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width: 100%;
+}
+.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left: 0;
+	top: 2.5em; /* match sf-menu line height */
+	z-index: 99;
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+/*Third ============================================================================================= */
+/*** DEMO SKIN ***/
+.sf-menu {
+	float: left;
+	margin-bottom: 1em;
+}
+.sf-menu a {
+	// border-left: 1px solid #fff;
+	// border-top: 1px solid #CFDEFF;
+	padding: .75em 1em;
+	text-decoration: none;
+}
+.sf-menu a, .sf-menu a:visited { /* visited pseudo selector so IE6 applies text colour*/
+	color: #13a;
+}
+.sf-menu li {
+	// background: #BDD2FF;
+}
+.sf-menu li li {
+	// background: #AABDE6;
+}
+.sf-menu li li li {
+	// background: #9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	// background: #CFDEFF;
+	outline: 0;
+}
+
+#nav-holder-right{
+	position: absolute;
+	@include tranny;
+	padding: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
+.sticky #nav-holder-right{
+}
+
+#popupformbtn{
+	display:inline-block;
+	@include tranny;
+	position: relative;
+	top: -26px;
+	margin-left: 1rem;
+
+	a:link, a:visited, a:active{
+		text-decoration: none;
+		font-weight: 700;
+		background: #4db549;
+		color: #fff;
+		line-height: 1;
+		padding: 0.7rem 2rem;
+		font-size: 1.125rem;
+		border: 2px solid #4db549;
+	}
+	a:hover{
+		color: #4db549;
+		border: 2px solid #4db549;
+		background: transparent;
+	}
+}
+.sticky #popupformbtn{
+	top: -38px;
+}
+.sticky #popupformbtn a:link, .sticky #popupformbtn a:visited, .sticky #popupformbtn a:active {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+}
+
+#navHolder{
+	padding: 0;
+	display: inline-block;
+}
+#navigation{
+	padding: 0;
+}
+#id_header-nav{
+	padding: 0;
+}
+
+#thenavigator{
+	padding: 0;
+	> li{
+		font-size: 1rem;
+		font-weight: 500;
+		margin: 0 0.8rem;
+		padding: 0;
+
+		> a:link, > a:visited, > a:active{
+			color: #a3a3a3;
+			// padding: 3.47rem 0;
+			padding: 3rem 0 0.3rem;
+			position: relative;
+			 
+		}
+		> a:hover{
+			color: #4db549
+		}
+	}
+
+	> li.menu-item-has-children{
+		margin: 0 1.313rem;
+
+		> a:link, > a:visited, > a:active{
+			// padding: 0 1.250rem 0.3rem 0;
+			// padding: 3.47rem 1.250rem 3.47rem 0;
+			padding: 3rem 1.250rem 1.5rem 0
+			 
+		}
+
+		> a::after{
+			content: "\f0d7";
+			font-family: fontawesome;
+			position: absolute;
+			right: 0;
+			color:#b1b1b1;
+			@include  tranny;
+		}
+		> a:hover::after{
+			color: #4db549;
+		}
+
+	}
+}
+#thenavigator li > ul{
+	
+}
+#thenavigator li > ul{
+	padding: 1rem 1.5rem;
+	background:#ffffff;
+	top: 100%;
+	width: 18.5rem;
+	display: none;
+	left: -2rem;
+	border: 3px solid #4db549;
+
+	> li:first-child{
+		border-top: 0 none;
+	}
+	> li{
+		// border-top: 1px solid rgba(255,255,255,0.3);
+		padding: 0;
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 500;
+
+		> a:link, > a:visited, > a:active{
+			color: #a3a3a3;
+			padding: 0.4rem 0.5rem;
+			margin: 0;
+		}
+		> a:hover{
+			color: #4db549;
+		}
+	}
+}
+
+.sticky #thenavigator li > ul{
+	padding: 0.5rem 1.5rem;
+}
+
+#thenavigator > li.current-menu-item > a:link, #thenavigator > li.current-menu-item > a:visited, #thenavigator > li.current-menu-item > a:active, #thenavigator > li.current-menu-item > a:hover{
+	color: #4db549;
+}
+
+
+.home #thenavigator > li > a:link, .home #thenavigator > li > a:visited, .home #thenavigator > li > a:active{
+	color: #a3a3a3;
+}
+.home #thenavigator > li > a:hover{
+	color: #4db549;
+}
+.home #thenavigator > li.menu-item-has-children > a::after{
+	color: #a3a3a3;
+}
+.home #thenavigator > li.menu-item-has-children > a:hover::after{
+	color: #4db549;
+}
+
+.home #thenavigator li > ul > li > a:link, .home #thenavigator li > ul > li > a:visited, .home #thenavigator li > ul > li > a:active {
+    color: #a3a3a3;
+}
+.home #thenavigator li > ul > li > a:hover{
+	color: #4db549;
+}
+
+.home #thenavigator > li.current-menu-item > a:link, .home #thenavigator > li.current-menu-item > a:visited, .home #thenavigator > li.current-menu-item > a:active, .home #thenavigator > li.current-menu-item > a:hover{
+	color: #4db549;
+}
+
+
+#thenavigator > li.current-menu-ancestor > a:link, #thenavigator > li.current-menu-ancestor > a:active, #thenavigator > li.current-menu-ancestor > a:visited, #thenavigator > li.current-menu-ancestor > a:hover{
+	color: #4db549;
+}
+#thenavigator > li.current-menu-ancestor > a::after{
+	color: #4db549;
+}
+
+#thenavigator li > ul > li.current-menu-item > a:link, #thenavigator li > ul > li.current-menu-item > a:visited, #thenavigator li > ul > li.current-menu-item > a:active, #thenavigator li > ul > li.current-menu-item > a:hover{
+	color: #4db549;
+}
+
+#thenavigator > li.current-menu-item.menu-item-has-children > a::after{
+	color: #4db549;
+}
+
+
+#thenavigator > li.menu-item-has-children.sfHover > a:link, #thenavigator > li.menu-item-has-children.sfHover > a:visited, 
+#thenavigator > li.menu-item-has-children.sfHover > a:active, #thenavigator > li.menu-item-has-children.sfHover > a:hover{
+	color: #4db549;
+} 
+
+.sticky #thenavigator > li.menu-item-has-children.sfHover > a:link, 
+.sticky #thenavigator > li.menu-item-has-children.sfHover > a:visited, 
+.sticky #thenavigator > li.menu-item-has-children.sfHover > a:active,
+.sticky #thenavigator > li.menu-item-has-children.sfHover > a:hover{
+	color: #4db549;
+}
+
+.sticky #thenavigator > li.menu-item-has-children.sfHover > a::after{
+	color: #4db549;
+}
+
+#thenavigator > li.menu-item-has-children.sfHover > a::after{
+	color: #4db549 !important;
+}
+
+
+
+.home.sticky #thenavigator > li > a:link, .home.sticky #thenavigator > li > a:visited, .home.sticky #thenavigator > li > a:active{
+	color: #a3a3a3;
+}
+.home.sticky #thenavigator > li > a:hover{
+	color: #4db549;
+}
+.home.sticky  #thenavigator > li.menu-item-has-children > a::after{
+	color: #a3a3a3;
+}
+.home.sticky  #thenavigator > li.menu-item-has-children > a:hover::after{
+	color: #4db549;
+}
+
+.home.sticky  #thenavigator li > ul > li > a:link, .home.sticky  #thenavigator li > ul > li > a:visited, .home.sticky  #thenavigator li > ul > li > a:active {
+    color: #a3a3a3;
+}
+.home.sticky  #thenavigator li > ul > li > a:hover{
+	color: #4db549;
+}
+
+.home.sticky  #thenavigator > li.current-menu-item > a:link, .home.sticky  #thenavigator > li.current-menu-item > a:visited, .home.sticky  #thenavigator > li.current-menu-item > a:active, .home.sticky  #thenavigator > li.current-menu-item > a:hover{
+	color: #4db549;
+}
+
+.sticky #thenavigator > li {font-size: 0.9rem;}
+
+.sticky #thenavigator > li > a:link, .sticky #thenavigator > li > a:visited, .sticky #thenavigator > li > a:active {
+    padding: 2rem 1.25rem 2.2rem 0;
+}
+.sticky #thenavigator > li.menu-item-has-children > a:link, .sticky #thenavigator > li.menu-item-has-children > a:visited, .sticky #thenavigator > li.menu-item-has-children > a:active {
+    padding: 2rem 1.25rem 2.2rem 0;
+}
+
+.sticky #thenavigator li > ul > li {font-size: 0.8rem;}
+
+
+
+#thenavigator > li.with__icon > .sub-menu{
+	position: absolute;
+	// padding-top: 3.5rem;
+}
+#thenavigator > li.with__icon > .sub-menu::before{
+
+	// content: "";
+	// position: absolute;
+	// top: 10px;
+	// width: 42px;
+	// height: 42px;
+	// left: unset !important;
+	// display: block;
+	// background-repeat: no-repeat;
+	
+	// background-size: 100% 100%;
+	// @include tranny;
+	// margin: 0 0 0 5px;
+}
+#thenavigator > li.with__icon.wlp_icon  > .sub-menu::before{
+	// background-image: url(images/nav-icon-01.png);
+}
+#thenavigator > li.with__icon.s_icon  > .sub-menu::before{
+	// background-image: url(images/nav-icon-02.png);
+}
+
+
+.sticky #thenavigator > li.with__icon > .sub-menu{
+	// padding-top: 3.5rem;
+}
+.sticky #thenavigator > li.with__icon > .sub-menu::before{
+	// width: 32px;
+	// height: 32px;	
+}
+
+
+.home #thenavigator > li.with__icon > .sub-menu{
+	position: absolute;
+	// padding-top: 3.5rem;
+}
+.home #thenavigator > li.with__icon > .sub-menu::before{
+
+	// content: "";
+	// position: absolute;
+	// top: 10px;
+	// width: 42px;
+	// height: 42px;
+	// left: unset !important;
+	// display: block;
+	// background-repeat: no-repeat;
+	
+	// background-size: 100% 100%;
+	// @include tranny;
+	// margin: 0 0 0 5px;
+}
+.home #thenavigator > li.with__icon.wlp_icon  > .sub-menu::before{
+	// background-image: url(images/nav-icon-01.png);
+}
+.home #thenavigator > li.with__icon.s_icon  > .sub-menu::before{
+	// background-image: url(images/nav-icon-02.png);
+}
+
+
+.home.sticky #thenavigator > li.with__icon > .sub-menu{
+	// padding-top: 3.5rem;
+}
+.home.sticky #thenavigator > li.with__icon > .sub-menu::before{
+	// width: 32px;
+	// height: 32px;	
+}
+@import "responsive-menu";

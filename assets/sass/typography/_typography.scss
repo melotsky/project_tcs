@@ -1,0 +1,399 @@
+/************************************************/
+/* TYPO START START								*/
+/************************************************/
+
+.entry-content{}
+.entry-content p{
+	padding: 0 0 1rem;
+	font-size: 1rem;
+	line-height: 140%;
+	color: #4c4c4c;
+}
+
+.entry-content ul{
+	padding: 0 0 1.5rem;
+	list-style-type: none;
+	margin: 0;
+}
+.entry-content ul li {
+    padding: 0 0 0 2.5rem;
+    margin: 1rem 0 0 0;
+    position: relative;
+    color: #4c4c4c;
+    font-weight: 300;
+    font-size: 1rem;
+    list-style-type: none;
+}
+.entry-content ul li:first-child{
+    padding: 0 0 0 2.5rem;
+    margin-top: 0;
+    display: block;
+}
+.entry-content ul li::before {
+    //content: "";
+    content: url(images/circle-check.png);
+    font-family: fontawesome !important;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: #4db549;
+    font-size: 0.5rem;
+    width: 20px;
+    height: 20px;
+}
+ 
+.entry-content ol {
+    counter-reset: my-counter;
+    padding: 0 0 1.5rem;
+    list-style-type: none;
+    margin: 0;
+}
+.entry-content ol li {
+    counter-increment: my-counter;
+    font-size: 1rem;
+    padding: 0 0 0 1.3rem;
+    margin: 0.5rem 0 0 0;
+    position: relative;
+    color: #4c4c4c;
+    font-weight: 300;
+}
+.entry-content ol li:first-child{
+	padding: 0 0 0 1.3rem;
+}
+.entry-content ol li::before {
+    content: counters(my-counter,"");
+    position: absolute;
+    left: 0;
+    top: 4px;
+	font-size: 0.8rem;
+	color: #4c4c4c;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6{
+	padding: 0 0 1rem;
+	line-height: 120%;
+	color: #333333;
+
+    b, strong {
+        font-weight: unset;
+    }
+}
+
+.entry-content h1{
+	font-size: 3.750rem;
+}
+.entry-content h2{
+	font-size: 2.250em;
+}
+.entry-content h3{
+	font-size: 1.5rem;
+}
+.entry-content h4{
+    
+    font-size: 1.4rem
+}
+.entry-content h5{
+	font-size: 1.3rem;
+}
+.entry-content h6{
+	font-size: 1.2rem;
+}
+
+.entry-content a:link, .entry-content a:visited, .entry-content a:active{
+    text-decoration: underline;
+    color: #4c4c4c
+}
+.entry-content a:hover{
+    padding: 0;
+    color: #4db549;
+}
+
+.wp-caption.alignnone {
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    width: auto !important;
+	padding: 0 0 1em;	
+}
+.wp-caption.alignright {
+    display: block;
+    float: right;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 0 1em 1em;
+    width: auto !important;
+}
+.wp-caption.alignleft {
+    display: block;
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 1em 1em 0;
+    width: auto !important;
+}
+.wp-caption.aligncenter {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 0 1em;
+    width: auto !important;
+}
+.wp-caption.aligncenter img{margin:0 auto;}
+.wp-caption img {
+    display: block;
+}
+.wp-caption .wp-caption-text {
+    font-size: 0.7em;
+    padding: 0;
+    text-align: center;
+}
+
+img.alignnone {
+    display: block;
+    float: none;
+    margin: 0 0 1em;
+}
+img.alignright{
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 0;	
+}
+img.alignleft {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    padding: 0;
+}
+img.aligncenter {
+    display: block;
+    float: none;
+    margin: 0 auto 1em;
+}
+
+blockquote{}
+blockquote p {
+}
+
+.entry-content blockquote {
+    font-style: unset;
+    width: auto;
+    margin: 2rem 0 2rem 0;
+    padding: 0;
+    line-height: unset;
+    position: relative;
+    color:#000;
+    background: transparent;
+
+    p{
+        z-index: 2;
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color:  #000;
+        line-height: 120%;
+        padding: 0 0 1.5rem;
+        @include tranny;
+    }
+    p:last-child{
+        padding: 0;
+    }
+    cite {
+        color: #999999;
+        font-size: 14px;
+        display: block;
+        margin-top: 5px;
+    }
+    cite:before {
+        content: "\2014 \2009";
+    }
+}
+.entry-content blockquote::before{
+    content: "“";
+    font-weight: 900;
+    font-size: 13rem;
+    color: #4db549;
+    font-style: normal;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1;
+    position: absolute;
+    z-index: 1;
+    top: -2.6rem;
+    left: -1.8rem;
+    @include tranny;
+}    
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+/************************************************/
+/* TYPO START END								*/
+/************************************************/
+
+/************************************************/
+/* TYPO BLOG PAGE START 						*/
+/************************************************/
+// .entry-content.entry-blog-content h1{
+//     font-size: 3rem;
+//     font-weight: 500;
+// }
+// .entry-content.entry-blog-content h2{
+//     font-size: 2.6rem;
+//     font-weight: 500
+// }
+// .entry-content.entry-blog-content h3{
+//     font-weight: 500;
+//     font-size: 2rem;
+// }
+// .entry-content.entry-blog-content h4{
+//     font-size: 2rem;
+//     font-weight: 500;
+// }
+// .entry-content.entry-blog-content h5{
+//     font-size: 1.6rem;
+//     font-weight: 500
+// }
+// .entry-content.entry-blog-content h6{
+//     font-size: 1.2rem;
+//     font-weight: 500
+// }
+/************************************************/
+/* TYPO BLOG PAGE END 						*/
+/************************************************/
+
+.entry-content {
+    p.pb-2rem{
+    padding: 0 0 2rem
+    }
+}
+
+.entry-content{
+    .mb-1{
+        margin-bottom: 1rem
+    }
+    .mb-2{
+        margin-bottom: 2rem
+    }
+    .mb-3{
+        margin-bottom: 3rem
+    }
+
+
+    .plp-1{
+        padding-left: 1%;
+    }
+    .plp-2{
+        padding-left: 2%;
+    }
+    .plp-3{
+        padding-left: 3%;
+    }
+    .plp-4{
+        padding-left: 4%;
+    }
+    .plp-5{
+        padding-left: 5%;
+    }
+    .plp-6{
+        padding-left: 6%;
+    }
+    .plp-7{
+        padding-left: 7%;
+    }
+    .plp-8{
+        padding-left: 8%;
+    }
+    .plp-9{
+        padding-left: 9%;
+    }
+    .plp-10{
+        padding-left: 10%;
+    }
+    .plp-11{
+        padding-left: 11%;
+    }
+    .plp-12{
+        padding-left: 12%;
+    }
+    .plp-13{
+        padding-left: 13%;
+    }
+
+
+    .prp-1{
+        padding-right: 1%;
+    }
+    .prp-2{
+        padding-right: 2%;
+    }
+    .prp-3{
+        padding-right: 3%;
+    }
+    .prp-4{
+        padding-right: 4%;
+    }
+    .prp-5{
+        padding-right: 5%;
+    }
+    .prp-6{
+        padding-right: 6%;
+    }
+    .prp-7{
+        padding-right: 7%;
+    }
+    .prp-8{
+        padding-right: 8%;
+    }
+    .prp-9{
+        padding-right: 9%;
+    }
+    .prp-10{
+        padding-right: 10%;
+    }
+    .prp-11{
+        padding-right: 11%;
+    }
+    .prp-12{
+        padding-right: 12%;
+    }
+    .prp-13{
+        padding-right: 13%;
+    }
+
+
+
+}
+
+@import "headings";
+
+@import "copy";

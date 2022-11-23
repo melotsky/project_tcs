@@ -1,0 +1,417 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+.single_review__content_licenses_logo, .single_review__content_csicon, .single_review__content_games > p, .single_review__content_stars, .review__logo, .single_review__brandname, .single_review__content_csicon, .single_review__content_local_flags, .single_review__content_paymenticons{
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.ft-yii-widget-brand-review .single_review__info {
+    border-bottom: 1px solid #525252;
+    padding: 0 0 2.2rem;
+    margin: 0 0 2.5rem 0;
+}
+.ft-yii-widget-brand-review .single_review__info_flex{
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    -ms-justify-content: space-between;
+    justify-content: space-between;   
+}
+
+.review__logo {
+    width: 50%;
+    align-self: stretch;
+}
+.review__logo img{
+    display: block;
+}
+.single_review__brandname {
+    width: 40%;
+    align-self: stretch;
+}
+.single_review__brandname_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.single_review__brandname_tablel {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.single_review__brandname h3 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 120%;
+}
+.single_review__brandname p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+.single_review__brandname p > a:link, .single_review__brandname p > a:visited, .single_review__brandname p > a:active{
+    color: #4db549;
+    text-decoration: underline;
+}
+.single_review__brandname p > a:hover{
+}
+
+.single_review__content_overallscore, .single_review__content_games, .single_review__content_casino_solutions, .single_review__content_payment{ 
+    padding: 0 0 1.2rem
+}
+.single_review__content_overallscore > h3, .single_review__content_games >  h3, .single_review__content_localization > h3, .single_review__content_casino_solutions > h3, .single_review__content_payment > h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 130%;
+    float: left;
+    color: #fff;
+    text-transform: capitalize;
+}
+.single_review__content_stars {
+    float: right;
+    width: 60%;
+    color: #4db549;
+    font-size: 1.5rem;
+    line-height: 120%;
+
+}
+
+.single_review__content_stars .brand-rating-stars{}
+
+.single_review__content_games > p{
+    float: right;
+    width: 40%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 130%;
+    color: #fff;
+}
+
+.single_review__content_csicon {
+    float: right;
+    width: 60%;
+    padding: 0.1rem 0 0 0;
+}
+
+.csicon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/single-review/casino-solutions-sprite.png);
+    margin: 0 0.8rem 0 0;
+}
+.csicon_key{
+    background-position: 0 0;
+}
+.csicon_tag {
+    background-position: -26px 0px;
+}
+.csicon_bit {
+    background-position: -52px 0px;
+}
+.csicon_tool{
+    background-position: -78px 0px;
+}
+
+.csicon_key_off{
+    background-position: 0 -26px;
+}
+.csicon_tag_off {
+    background-position: -26px -26px;
+}
+.csicon_bit_off {
+    background-position: -52px -26px;
+}
+.csicon_tool_off{
+    background-position: -78px -26px;
+}
+
+.single_review__content_local_flags{
+    float: right;
+    width: 60%;
+}
+
+.srv_local_flag {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(images/single-review/localization-sprite.png);
+    margin: 0 1.2rem 0.9rem 0;
+    float: left;
+}
+.srv_flag_us{
+    background-position: 0px 0px;
+}
+
+.single_review__content_localization{
+    padding: 0 0 0.6rem;
+}
+
+.single_review__content_paymenticons {
+    float: right;
+    width: 60%;
+    padding: 3px 0 0 0;
+}
+
+.single_review__content_paymenticons > .payment-logo {
+    float: left;
+    width: 39px;
+    height: 25px;
+    background: #fff;
+    margin: 0 0.7rem 0.7rem 0;
+}
+.single_review__content_paymenticons > .payment-logo a:link, .single_review__content_paymenticons > .payment-logo a:visited, .single_review__content_paymenticons > .payment-logo a:active{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.single_review__content_paymenticons > .payment-logo a:hover{}
+
+.sv-pm-logo-sprite {
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-image: url(images/single-review/payment-sprite-39-25.png);
+}
+.sv-pm-logo-sprite-bitcoin {
+    background-position: 0px 0px;
+}
+
+.sv-pm-logo-sprite-maestro-card{
+    background-position: -39px 0px;
+}
+.sv-pm-logo-sprite-paypal{
+    background-position: -78px 0px;
+}
+.sv-pm-logo-sprite-paysafe-card{
+    background-position: -117px 0px;
+}
+.sv-pm-logo-sprite-skrill{
+    background-position: -156px 0px;
+}
+
+.single_review__content_licenses{}
+.single_review__content_licenses_flex{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.single_review__content_licenses_logo {
+    margin: 0;
+    padding: 1%;
+    align-self: stretch;
+}
+.single_review__content_licenses_logo:first-child {
+    /* padding-left: 0; */
+}
+.single_review__content_licenses_logo_table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.single_review__content_licenses_logo_tablelay{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.single_review__content_csicon .featured_platform_content__solutions{}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(images/services-sprite-icon.png);
+    margin: 0 0.813rem 0.5rem 0;
+}
+
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_affiliation{
+    background-position: 0px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_bonus{
+    background-position: -104px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_vip{
+    background-position: -311px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_crm{
+    background-position: -155px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_marketing{
+    background-position: -209px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_techhosting{
+    background-position: -261px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_bitcoin{
+    background-position: -52px 0px;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_whitelabel{
+    background-position: -418px 0;
+}
+.single_review__content_csicon .featured_platform_content__solutions .fpsicon.fpsicon_turnkey{
+    background-position: -364px 0;
+}
+.sv-pm-logo-sprite.sprite_ogone {
+    background-position: -1560px 0px;
+}
+
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+
+@media only screen and (max-width : 1299px ) {
+    .ft-yii-widget-brand-review .single_review__info {
+        padding: 0 0 1.5rem;
+        margin: 0 0 2rem 0;
+    }
+    .single_review__content_overallscore, .single_review__content_games, .single_review__content_casino_solutions, .single_review__content_payment {
+        padding: 0 0 1rem;
+    }
+    .review__logo {
+        width: 40%;
+    }
+    .single_review__brandname {
+        width: 60%;
+        align-self: stretch;
+    }
+    .single_review__content_overallscore > h3, .single_review__content_games > h3, .single_review__content_localization > h3, .single_review__content_casino_solutions > h3, .single_review__content_payment > h3 {
+        font-size: 1.3rem;
+    }
+    .single_review__content_stars{
+        width: 60%;
+        font-size: 1.4rem;
+    }
+    .single_review__content_games > p {
+        width: 60%;
+        font-size: 1.3rem;
+    }
+    .single_review__content_csicon {
+        width: 60%;
+    }
+    .single_review__content_local_flags {
+        width: 60%;
+    }
+    .single_review__content_paymenticons{
+        width: 60%;
+    }
+    .single_review__content_licenses_logo {
+    }
+}
+
+@media only screen and (max-width : 1130px ) {
+    .ft-yii-widget-brand-review .single_review__info {
+        padding: 0 0 1rem;
+        margin: 0 0 1rem 0;
+    }
+    .csicon {
+        margin: 0 0.5rem 0 0;
+    }
+    .srv_local_flag {
+        margin: 0 1rem 0.8rem 0;
+    }
+    .single_review__content_paymenticons {
+        padding: 3px 0 0 0;
+    }
+}
+
+@media only screen and (max-width : 1030px ) {
+    .single_review__content_overallscore > h3, .single_review__content_games > h3, .single_review__content_localization > h3, .single_review__content_casino_solutions > h3, .single_review__content_payment > h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width : 1024px ) {
+    .review__logo {
+		width: 32%;
+    }
+    .single_review__brandname {
+        width: 56%;
+    }
+    .single_review__brandname h3 {
+        font-size: 0.9rem;
+    }
+    .single_review__brandname p {
+        font-size: 0.8rem;
+    }
+    .single_review__content_overallscore > h3, .single_review__content_games > h3, .single_review__content_localization > h3, .single_review__content_casino_solutions > h3, .single_review__content_payment > h3 {
+        font-size: 1rem;
+    }
+    .single_review__content_stars, .single_review__content_games > p, .single_review__content_csicon, .single_review__content_local_flags, .single_review__content_paymenticons {
+        width: 56%;
+    }
+
+}
+
+@media only screen and (max-width : 980px ) {
+    .ft-yii-widget-brand-review .single_review__info_flex {
+        justify-content: left;
+    }
+    .review__logo {
+        width: 32%;
+        margin: 0 1.5rem 0 0;
+    }
+    .single_review__brandname {
+        width: 65%;
+    }
+    .single_review__brandname h3 {
+        font-size: 1rem;
+    }
+    .single_review__brandname p {
+        font-size: 0.9rem;
+    }
+    .single_review__content_stars, .single_review__content_games > p, .single_review__content_csicon, .single_review__content_local_flags, .single_review__content_paymenticons {
+        width: 65%;
+    }
+    .single_review__content_licenses_logo {
+    }
+
+
+}
+@media only screen and (max-width : 660px ) {
+    .single_review__brandname h3 {
+        font-size: 0.9rem;
+    }
+    .single_review__brandname p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width : 560px ) {
+    .ft-yii-widget-brand-review .single_review__info_flex {
+        flex-direction: column;
+    }
+    .review__logo {
+        width: auto;
+        margin: 0 0 1rem 0;
+    }
+    .single_review__brandname {
+        width: auto;
+    }
+    .single_review__content_overallscore > h3, .single_review__content_games > h3, .single_review__content_localization > h3, .single_review__content_casino_solutions > h3, 
+    .single_review__content_payment > h3 {
+        font-size: 1rem;
+        float: none;
+        padding: 0 0 0.5rem;
+    }
+    .single_review__content_stars, .single_review__content_games > p, .single_review__content_csicon, .single_review__content_local_flags, .single_review__content_paymenticons {
+        width: auto;
+        float: none;
+    }
+
+}
+@media only screen and (max-width : 530px ) {
+    .single_review__content_licenses_logo {
+        width: auto;
+        padding: 0 0.5rem 0 0;
+    }
+}

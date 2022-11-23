@@ -1,0 +1,52 @@
+﻿/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE START **/
+
+.casino_licenseslogo__wrapper{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-justify-content: space-between;
+    justify-content: start;
+    margin: 2rem auto 3rem;
+    align-items: flex-start;
+}
+.casino_licenseslogo__wrapper .casino_licenseslogo__item {
+    width: 50%;
+    padding: 1.9rem 4%;
+    border-left: 1px solid #e5e5e5;
+    align-self: stretch;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.casino_licenseslogo__wrapper .casino_licenseslogo__item:last-child{
+    border-right: 1px solid #e5e5e5;
+}
+.casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(2n){
+    border-right: 1px solid #e5e5e5;
+}
+
+.casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(1), .casino_licenseslogo__wrapper .casino_licenseslogo__item:nth-child(2){
+    border-top: 1px solid #e5e5e5;
+}
+.casino_licenseslogo__item_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.casino_licenseslogo__item_tablecell {
+    width: 100%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.casino_licenseslogo__wrapper .casino_licenseslogo__item img{
+    display: block;
+    margin:0 auto;
+}
+/** SINGLE REVIEW FOR THE HEADER OF REVIEW PAGE END **/
+
+
+@media only screen and (max-width : 680px ) {
+    .casino_licenseslogo__wrapper .casino_licenseslogo__item {
+        padding: 1.9rem 2rem;
+    }
+}
