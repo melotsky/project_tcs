@@ -202,13 +202,6 @@ function contact_us_add() {
 
 if( function_exists('acf_register_block_type') ) {
 
-    // This are the block used for home page START
-    // add_action('acf/init', 'register_acf_block_types');     
-    //add_action('acf/init', 'homepage_aboutus'); 
-    //add_action('acf/init', 'dummy_casino_toplist'); 
-    //add_action('acf/init', 'featured_platform'); 
-    //add_action('acf/init', 'top_review'); 
-    //add_action('acf/init', 'what_we_review'); 
     add_action('acf/init', 'solutions_child_pages'); 
     add_action('acf/init', 'gambling_license_reviews_child_pages'); 
     add_action('acf/init', 'payment_child_pages'); 
@@ -226,8 +219,5 @@ if( function_exists('acf_register_block_type') ) {
     // This are the block used for home page END
 
 
-    // This are the block used for contact page START
-    //add_action('acf/init', 'contact_us_left'); 
-    // This are the block used for contact page END
 
 }

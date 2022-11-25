@@ -35,11 +35,9 @@ if( !empty($block['align']) ) {
                     $icon_image = get_field('glr_icon_image_ssp', $theID);
                     $title = get_field('glr_title_ssp',  $theID)
                 ?>
-
                     <div class="wp-block-group review__sol__item">
                         <div class="wp-block-group__inner-container">
                             <figure class="wp-block-image size-large">
-                            
                                 <a href="<?php the_permalink()?>">
                                     <?php
                                     echo wp_get_attachment_image( 
@@ -68,11 +66,8 @@ if( !empty($block['align']) ) {
                                     );
                                 ?>
                             </figure>
-
                             <h3><a href="<?php the_permalink()?>"><?php the_field('glr_title_ssp',  $theID) ?></a></h3>
-
                             <p><?php the_field('glr_description_ssp',  $theID) ?></p>
-
                             <p><a href="<?php the_permalink()?>">Read more</a></p>
                         </div>
                     </div>

@@ -3,8 +3,6 @@
 
 if ( !defined('ABSPATH')) exit;
 
-
-
 /*************************/
 /* FOR SLIDEBAR AREA START */
 /*************************/
@@ -44,7 +42,7 @@ function responsiveMenu(){
 }
 
 function other_contact_info(){ ?>
-    <div id="sb__others">
+<div id="sb__others">
     <p class="sb__others_smi">
 
         <?php if( get_field('linked_in_url_sml', 'option') ) : ?>
@@ -87,20 +85,9 @@ function other_contact_info(){ ?>
                 </span>                
             </a>
         <?php endif; ?>    
-
-    <!-- $oci .= "<a class=\"sb_li\" rel=\"nofollow\" target=\"_blank\" href=\"".get_field('linkin_url', 'option')."\">";
-    $oci .= "</a>";
-
-    $oci .= "<a class=\"sb_ig\" rel=\"nofollow\" target=\"_blank\" href=\"".get_field('twitter_url', 'option')."\">";
-    $oci .= "</a>";
-
-    // $oci .= "<a class=\"sb_ig\" href=\"".get_field('instagram_url', 'option')."\">";
-    // $oci .= "</a>"; -->
-
     </p>
-    </div>
-    <?php
-}
+</div>
+<?php }
 
 function respCopyRight(){
     $theUrl = get_site_url();

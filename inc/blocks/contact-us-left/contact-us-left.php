@@ -22,9 +22,6 @@ if( !empty($block['className']) ) {
 if( !empty($block['align']) ) {
     $className .= ' align' . $block['align'];
 }
-
-// Load values and assign defaults.
-
 ?>
 <div id="contact__pagetemp" class="b2bflex__contact">
     <div class="b2bflex__contact_item">
@@ -39,9 +36,8 @@ if( !empty($block['align']) ) {
         </div>
     </div>
     <div class="b2bflex__contact_item" style="background-color: <?php the_field('background_color_cul')?>">
-    <div class="group b2bflex__contact_right">
-        <?php echo do_shortcode( get_field('contact_form_shortcode_cul') )?>
-    </div> 
-    
+        <div class="group b2bflex__contact_right">
+            <?php echo do_shortcode( get_field('contact_form_shortcode_cul') )?>
+        </div> 
     </div>
 </div>

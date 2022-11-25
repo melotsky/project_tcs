@@ -11,8 +11,7 @@ get_header(); ?>
         <!-- LEFT START -->
         <div class="rev_header__flex_item">
             <div class="group rev_header__left">
-
-                <!-- <?php 
+                <?php 
                 $check_link = get_field('next_review_page_link');
                 if( get_field('next_review_page_link') ) :
                 ?>
@@ -22,7 +21,6 @@ get_header(); ?>
                 </div>
                 <!-- NEXT END -->
                 <?php endif; ?> -->
-
                 <!-- TITLE START -->
                 <?php  $check_next_link = !empty( $check_link ) ? "" : " no_link"; ?>
                 <div class="group review_title<?php _e( $check_next_link )?>">
@@ -31,19 +29,18 @@ get_header(); ?>
                     </header>
                 </div>
                 <!-- TITLE END -->
-
                 <!-- AUTHOR START -->
                 <?php if ( get_field('enable_author_box_on_header') ) : ?>
                     <?php $author_image = wp_get_attachment_image_src(get_field('author_image'), 'author_thumb'); ?>
                     <div class="rev_header__author">
                         <figure>
-                        <img src="<?php _e($author_image[0])?>" alt="<?php the_field('author_name') ?>" title="<?php the_field('author_name') ?>" width="60" height="60"/>
+                            <img src="<?php _e($author_image[0])?>" alt="<?php the_field('author_name') ?>" title="<?php the_field('author_name') ?>" width="60" height="60"/>
                         </figure>
                         <div class="rev_header__author_info">
                             <p>
-                            <span><?php the_field('author_name') ?></span>
-                            <span><?php the_field('author_position') ?></span>
-                            <span class="last__updated"><?PHP _e("last updated: ")?> <?php echo the_time('d M Y')?></span>
+                                <span><?php the_field('author_name') ?></span>
+                                <span><?php the_field('author_position') ?></span>
+                                <span class="last__updated"><?PHP _e("last updated: ")?> <?php echo the_time('d M Y')?></span>
                             </p>
                         </div>
                     </div>
@@ -52,7 +49,6 @@ get_header(); ?>
             </div>
         </div>
         <!-- LEFT END -->
-
         <div class="rev_header__flex_item">
             <?php if(get_field('enable_top_widget')) {
                 echo do_shortcode('[ft_yii_widget widget_class=OperatorSingleTopReview use_post_item="true"]');
@@ -61,13 +57,10 @@ get_header(); ?>
     </div>
 </section>
 
-
 <section id="sec-content" class="group review_temp_content__wrapper">
     <div id="outer" class="group">
         <div id="inner" class="group">
-            
             <div id="review_temp_inner_wrapper" class="group site-main">
-
                 <div id="internal_nav" class="group">
                 <!-- NAV LEFT START -->
                 <?php if( have_rows('labels_and_target_anchor') ): ?>
@@ -81,9 +74,7 @@ get_header(); ?>
                     
                 <?php endif; ?>
                 <!-- NAV LEFT END -->
-
                 </div>
-
                 <div id="primary" class="site-content group">
                     <div id="content" role="main" class="group">
                         <?php while ( have_posts() ) : the_post(); ?>
@@ -92,17 +83,9 @@ get_header(); ?>
                         <?php endwhile; // end of the loop. ?>
                     </div><!--#CONTENT-->
                 </div><!--#PRIMARY -->
-
             </div><!-- #review_temp_inner_wrapper -->
-            
         </div><!--#INNER-->
     </div><!--#OUTER-->
 </section>
 
-<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
-
-
-
-
-

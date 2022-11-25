@@ -2,6 +2,7 @@
 if ( !defined('ABSPATH')) exit;
 /************************************/
 // ADD FONT / START DECLARE ALL YOUR FONTS HERE FROM GOOGLE
+// NOTE: BETTER TO USE THE WEB FONT CONVERTER THAN THIS
 /************************************/
 function fx_addfont() {
 

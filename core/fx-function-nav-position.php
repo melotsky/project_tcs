@@ -17,8 +17,6 @@ register_nav_menus( array(
     'footer-position-legal1' => __( 'Footer position for Legal 1', '' ),
     'footer-position-legal2' => __( 'Footer position for Legal 2', '' )
 
-
-	
 ) );
 /************************************/
 // MENU POSITION / END

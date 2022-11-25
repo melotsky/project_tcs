@@ -30,9 +30,8 @@ if ( get_field('enable_icon_boxes') == 1 ) :
     <div id="<?php _e($id)?>" class="<?php _e($className)?>">
         <div class="theiconbox__wrapper">
             <?php while(the_repeater_field('icon_boxes')) : 
-            $image = get_sub_field('icon_image');
+                $image = get_sub_field('icon_image');
             ?>
-       
                 <div class="theiconbox__item">
                     <div class="theiconbox__content">
                         <?php

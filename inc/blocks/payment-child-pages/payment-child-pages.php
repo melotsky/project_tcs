@@ -54,20 +54,6 @@ if( !empty($block['align']) ) {
                                     ?>                                    
                                 </a>
                             </figure>
-<!-- 
-                            <figure class="wp-block-image size-large">
-                                <?php
-                               // echo wp_get_attachment_image( 
-                                 //   $icon_image['id'], 'full', 
-                                 //   false, 
-                                   //     array(
-                                       //     'title' => $title, 
-                                      //      'alt' => $title, 
-                                         //   'class' => 'solutions__fimg'
-                                      //  )
-                                  //  );
-                                ?>
-                            </figure> -->
 
                             <h3><a href="<?php the_permalink()?>"><?php the_field('pay_title_ssp',  $theID) ?></a></h3>
 

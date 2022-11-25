@@ -53,8 +53,6 @@ $blogID = get_option( 'page_for_posts' );
                             foreach($categories as $category){
                                 $category->name; //category name
                                 $cat_link = get_category_link($category->cat_ID);
-                                //old echo '<a href="'.$cat_link.'">'.$category->name.'</a>'; // category link
-                                //echo '<a href="'.$cat_link.'">'.$category->name.'</a>'; // category link
                                 echo '<a href="#" onclick="return false;" style="cursor: context-menu;">'.$category->name.'</a>'; // category link
                             }
                             ?>
@@ -76,24 +74,6 @@ $blogID = get_option( 'page_for_posts' );
 
         </div>
     </div>
-    <script type="text/javascript">
-        // jQuery(window).ready(function($) {
-        // });
-
-        // jQuery(window).ready(function($) {
-        // var waypoints = jQuery('.grid').waypoint(function(direction) {
-        //     jQuery('.grid').masonry({
-        //     // // // options
-        //     itemSelector: '.grid-item',
-        //     percentPosition: true,
-        //     gutter: 30
-        //     });
-        // }, {
-        // offset: '100%'
-        // });
-        // });
-    </script>
-<?php else : ?>
 <?php endif; ?>
 
 <?php wp_reset_postdata(); // reset the query ?>

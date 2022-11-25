@@ -72,54 +72,11 @@ if (!is_admin()) {
 function disable_the_css_js_of_parent_theme_or_plugins() {
    
 	// disable the style of the plugin called EDITOR BLOCKS BY Editorblocks
-
+	// CSS FILE
 	// wp_dequeue_style( 'cf7cf-style' );
 	// wp_deregister_style( 'cf7cf-style' );
 
-	// wp_dequeue_style( 'contact-form-7' );
-	// wp_deregister_style( 'contact-form-7' );
-
-	// wp_dequeue_style( 'taqyeem-buttons-style' );
-	// wp_deregister_style( 'taqyeem-buttons-style' );
-
-	// wp_dequeue_style( 'taqyeem-style' );
-	// wp_deregister_style( 'taqyeem-style' );
-
-	// wp_dequeue_style( 'taqyeem-fontawesome' );
-	// wp_deregister_style( 'taqyeem-fontawesome' );
-
-	// wp_dequeue_style( 'evcal_cal_default' );
-	// wp_deregister_style( 'evcal_cal_default' );
-
-	// wp_dequeue_style( 'evo_font_icons' );
-	// wp_deregister_style( 'evo_font_icons' );
-
-	// wp_dequeue_style( 'eventon_dynamic_styles' );
-	// wp_deregister_style( 'eventon_dynamic_styles' );
-
-	// wp_dequeue_style( 'editor-blocks' );
-	// wp_deregister_style( 'editor-blocks' );
-	
-	// wp_dequeue_style( 'dlm-frontend' );
-    // wp_deregister_style( 'dlm-frontend' );
-
-	// wp_dequeue_style( 'tablepress-default' );
-    // wp_deregister_style( 'tablepress-default' );
-
-
-
-
-
-
-	
-	
-	// wp_dequeue_style( 'chld_thm_cfg_parent' );
-    // wp_deregister_style( 'chld_thm_cfg_parent' );
-
-	// wp_dequeue_style( 'twentysixteen-block-editor-style-css' );
-    // wp_deregister_style( 'twentysixteen-block-editor-style-css' );
-	
-	// //JS FILES
+	// JS FILES
 	// wp_dequeue_script( 'twentysixteen-skip-link-focus-fix' );
     // wp_dequeue_script( 'twentysixteen-script' );
 }

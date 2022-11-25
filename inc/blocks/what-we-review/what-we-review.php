@@ -23,7 +23,6 @@ if( !empty($block['align']) ) {
     $className .= ' align' . $block['align'];
 }
 // Load values and assign defaults.
-
 ?>
 
 <div id="whatdowe__review" class="group" style="background: <?php the_field('background_color_wr') ?>">
@@ -60,6 +59,4 @@ if( !empty($block['align']) ) {
                     </p>
                 </div>
     <?php endif; ?>
-
-
 </div>

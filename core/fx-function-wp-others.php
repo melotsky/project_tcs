@@ -149,8 +149,6 @@ return $text;
 // SHORTENT THE TEXT / END
 /************************************/
 
-
-
 /**
  * remove the query strings
  */

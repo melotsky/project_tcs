@@ -5,8 +5,6 @@ require_once( dirname(__FILE__) . '/hooks/header-hook.php'); // OPTION THEME / A
 require_once( dirname(__FILE__) . '/hooks/footer-hook.php'); // OPTION THEME / ACF
 require_once( dirname(__FILE__) . '/hooks/slidebar-hook.php'); // OPTION THEME / ACF
 
-
-
 function nav_cat() {
     do_action('nav_cat');
 }

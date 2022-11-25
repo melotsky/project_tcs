@@ -28,7 +28,6 @@ $link = get_field('youtube_url_pv');
 ?>
 <div class="<?php echo $className ?>" id="<?php _e($id)?>">
 
-
 <div class="group vp__wrapper">
     <a class="vp-a" href="<?php echo $link; ?>">
     <div class="vp_img">
@@ -53,9 +52,6 @@ $link = get_field('youtube_url_pv');
     </div>
     </a>
 </div>
-
-
-
 
 </div>
 <?php endif; ?>

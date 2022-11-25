@@ -222,8 +222,3 @@ add_action('my_header', 'mainNavDeclaration', 6);
 add_action('my_header', 'navWrapperEnd', 7);
 add_action('my_header', 'headerInnerWrapperEnd', 11);
 add_action('my_header', 'headerWrapperEnd', 20);
-//add_action('my_header', 'slider_holder', 21);
-//add_action('my_header', 'btn_search_wrapper_start', 25);
-//add_action('my_header', 'the_btns', 26);
-//add_action('my_header', 'btn_search_wrapper_end', 28);
-//add_action('my_header', 'searchform_slider', 26);

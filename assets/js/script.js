@@ -15,15 +15,6 @@ function openSourceId(sourceid, country){
 
 jQuery(document).ready(function($) {
 
-    // jQuery("select").change(function(){
-    //     if (jQuery(this).val()=="") $(this).css({color: "#aaa"});
-    //     else jQuery(this).css({color: "#000"});
-    // });
-
-    // jQuery('#uploadbrowsebutton').click(function(){
-    //     jQuery('#fileuploadfield').click();
-    // });
-
     jQuery('.btn_text').click(function(){
         jQuery('#fileuploadfield').click();
         
@@ -119,71 +110,3 @@ function copyToClipboard(element) {
 
  var $container = jQuery('.sec_bsp__inner');
 
-//  jQuery(window).on('load', function () {
-//     // Fire Isotope only when images are loaded
-//     $container.imagesLoaded(function () {
-//         $container.isotope({
-//             itemSelector: '.blog-item',
-//         });
-
-//         jQuery(".pagination").hide();
-//     });
-
-//     // Filter
-//     jQuery('.portfolio-menu').on('click', 'button', function () {
-//         var filterValue = jQuery(this).attr('data-filter');
-//         $container.isotope({filter: filterValue});
-//         jQuery('.portfolio-menu .selected').removeClass('selected');
-//         jQuery(this).addClass('selected');
-//     });
-
-//     // Infinite Scroll
-//     jQuery('.sec_bsp__inner').infiniteScroll({
-//             navSelector: 'div.pagination',
-//             nextSelector: 'div.pagination a:last-child',
-//             path: 'div.pagination a:last-child',
-//             append: '.blog-item',
-//             //itemSelector: '.blog-item',
-//             bufferPx: 200,
-//             loading: {
-//                 finishedMsg: 'We\'re done here.',
-//                 //img: +templateUrl+'ajax-loader.gif'
-//             },
-//         },
-        
-//         // Infinite Scroll Callback
-//         function (newElements) {
-//             var $newElems = jQuery(newElements).hide();
-            
-//             $newElems.imagesLoaded(function () {
-//                 //$container.isotope('destroy');
-//                 $newElems.fadeIn();
-//                 //$container.isotope('appended', $newElems);
-//                 $container.isotope('appended', $newElems);
-//                 //$container.isotope('reloadItems', $newElems);
-                
-//             });
-//         },
-
-//         //$container.isotope('destroy');
-        
-//     );
-
-//     $container.on( 'load.infiniteScroll', function( event, response, path ) {
-//         var $items = jQuery( response ).find('.blog-item');
-//         // append items after images loaded
-//         $items.imagesLoaded( function() {
-//           $container.append( $items );
-//           $container.isotope( 'insert', $items );
-//         });
-//       });
-
-// });
-
-
-// (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-// (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-// m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-// })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-// ga('create', 'UA-210723791-Y', 'auto');
-// ga('send', 'pageview');

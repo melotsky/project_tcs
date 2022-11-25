@@ -15,7 +15,6 @@ function footerWrapperEnd(){
     $theUrl = get_site_url(); ?>
     </footer></div> 
     <div id="lastFooterWrapper" class="group">
-        
     
         <div id="address_wrapper" class="site-main">
             <div class="address_content">
@@ -388,17 +387,6 @@ function mainRightFooter(){
     ob_end_clean();
     echo $mainRightFooter;
 
-    if ( is_active_sidebar( 'footermenu4' ) ) :
-        //ob_start();
-        //dynamic_sidebar( 'footermenu4' );
-        //$theMenu = ob_get_contents();
-        //$mainRightFooter = '<div id="footer__menu4" class="group footermenu__class">';
-        //$mainRightFooter .= $theMenu . '</div>';
-        //ob_end_clean();
-        //echo $mainRightFooter;
-    endif;
-
-
     $GameCare = wp_get_attachment_image_src(get_field('gamcare', 'option'), 'gamcare_size'); 
     $BeGamble = wp_get_attachment_image_src(get_field('be_gambale_aware', 'option'), 'be_gambale_aware_size');
     $GamStop = wp_get_attachment_image_src(get_field('gam_stop', 'option'), 'gam_stop_size'); 
@@ -544,16 +532,9 @@ function tcs_igaming_business_plan_form(){
     </script>
 <?php }
 
-//add_action('theFooterHook', 'popup_form', 1);
 add_action('theFooterHook', 'blog_single_form', 1);
 add_action('theFooterHook', 'footerWrapperStart', 2);
 add_action('theFooterHook', 'footer_navs', 3);
-//add_action('theFooterHook', 'footerLogo', 6);
-//add_action('theFooterHook', 'rightAreaStartWrap', 3);
-//add_action('theFooterHook', 'mainRightFooter', 4);
-//add_action('theFooterHook', 'rightAreaEndWrap', 5);
 add_action('theFooterHook', 'footerWrapperEnd', 100);
 add_action('theFooterHook', 'the_popupform', 200);
 add_action('theFooterHook', 'tcs_igaming_business_plan_form', 300);
-//add_action('theFooterHook', 'script_for_popupheader', 300);
-//add_action ('theFooterHook', 'the_popup_box', 200);

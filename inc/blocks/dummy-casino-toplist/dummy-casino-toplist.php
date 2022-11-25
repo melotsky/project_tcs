@@ -23,18 +23,7 @@ if( !empty($block['align']) ) {
     $className .= ' align' . $block['align'];
 }
 
-// Load values and assign defaults.
-// $bg_image1 = wp_get_attachment_image_src(get_field('background_image_1_as'), 'block_bg_abt_us_3_cols');
-// $bg_image2 = wp_get_attachment_image_src(get_field('background_image_2_as'), 'block_bg_abt_us_3_cols');
-// $bg_image3 = wp_get_attachment_image_src(get_field('background_image_3_as'), 'block_bg_abt_us_3_cols');
-
-// $icon_image1 = wp_get_attachment_image_src(get_field('icon_image_1_as'), 'full');
-// $icon_image2 = wp_get_attachment_image_src(get_field('icon_image_2_as'), 'full');
-// $icon_image3 = wp_get_attachment_image_src(get_field('icon_image_3_as'), 'full');
-
 $bg_color = get_field('baackground_dct');
-// $content_2 = get_field('content_1_as');
-// $content_3 = get_field('content_1_as');
 ?>
 <div id="dummy__casinotoplist" class="group" style="background: <?php _e($bg_color)?>">
     <div id="adummy__casinotoplist_wrapper" class="group site-main">

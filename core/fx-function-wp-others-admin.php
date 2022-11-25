@@ -9,10 +9,7 @@ function remove_default_sidebars(){
     remove_action( 'widgets_init', 'kickass_widgets_init' );
 }
 if (function_exists('register_sidebar')) {
-	
 
-
-	
 	register_sidebar(array(
     	'name' => 'Menu - Footer Position 1',
     	'id'   => 'footermenu1',
